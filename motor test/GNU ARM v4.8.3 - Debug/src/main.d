@@ -64,7 +64,7 @@ src/main.o: ../src/main.c \
  c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_emu.h \
  c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\hardware\kit\common\bsp\bsp.h \
  c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\hardware\kit\common\halconfig\bsphalconfig.h \
- C:/Users/Ciara/SimplicityStudio/v4_workspace/motor\ test/hal-config/hal-config.h \
+ C:/Users/Ciara/Desktop/DDL/DDL_robot/motor\ test/hal-config/hal-config.h \
  c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\halconfig\inc\hal-config\hal-config-types.h \
  c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_gpio.h \
  c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\hardware\kit\common\bsp\bsp_bcp.h \
@@ -203,7 +203,7 @@ c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\hardware\
 
 c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\hardware\kit\common\halconfig\bsphalconfig.h:
 
-C:/Users/Ciara/SimplicityStudio/v4_workspace/motor\ test/hal-config/hal-config.h:
+C:/Users/Ciara/Desktop/DDL/DDL_robot/motor\ test/hal-config/hal-config.h:
 
 c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\halconfig\inc\hal-config\hal-config-types.h:
 

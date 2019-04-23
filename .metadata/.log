@@ -1,0 +1,88 @@
+!SESSION 2019-04-23 13:43:44.680 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Ciara\Desktop\DDL\DDL_robot
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2019-04-23 13:44:48.760
+!MESSAGE Local timestamp file does not exist: C:\SiliconLabs\SimplicityStudio\v4\offline\common\Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.timestamp
+
+!ENTRY com.silabs.ss.platform.installer.base 1 0 2019-04-23 13:44:53.704
+!MESSAGE Secure archive download use of proxy is: false
+
+!ENTRY com.silabs.ss.platform.installer.core 4 0 2019-04-23 13:45:22.928
+!MESSAGE No repository found at jar:file:/C:/SiliconLabs/SimplicityStudio/v4/offline/archive/control/stacks/MosKRNX/krnx_archive.zip!/updates/.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/C:/SiliconLabs/SimplicityStudio/v4/offline/archive/control/stacks/MosKRNX/krnx_archive.zip!/updates/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.basicRefreshRepository(AbstractRepositoryManager.java:203)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.refreshRepository(MetadataRepositoryManager.java:100)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.getLocalStudioMetadataRepoToIu(InstallerUtils.java:620)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.findFeaturesForCapabilities(InstallerUtils.java:747)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.scanFeaturesProvidingMetadata(InstallerUtils.java:438)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.getPackageProvidingMetadata(InstallerUtils.java:459)
+	at com.silabs.ss.platform.internal.installer.core.PackageService.loadRemotePackages(PackageService.java:683)
+	at com.silabs.ss.platform.internal.installer.core.PackageService.getAllAvailablePackages(PackageService.java:141)
+	at com.silabs.ss.platform.internal.installer.core.PackageService.getEarlyAccessIncludedPackages(PackageService.java:361)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.processPreInstallPackages(InstallerUtils.java:2038)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.ensurePackagesFetched(InstallerUtils.java:1964)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager.updatePackageMetadata(UpdateManager.java:215)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager.ensureUpdatesFetched(UpdateManager.java:286)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager.access$4(UpdateManager.java:277)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager$1.run(UpdateManager.java:166)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2019-04-23 13:45:22.929
+!MESSAGE No repository found at jar:file:/C:/SiliconLabs/SimplicityStudio/v4/offline/archive/control/stacks/MosKRNX/krnx_archive.zip!/updates/.
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2019-04-23 13:45:38.784
+!MESSAGE Local timestamp file does not exist: C:\SiliconLabs\SimplicityStudio\v4\offline\common\Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.timestamp
+
+!ENTRY com.silabs.ss.tool.ide.arm.toolchain.iar 1 0 2019-04-23 13:45:57.410
+!MESSAGE detectIAREWARMFromRegistry: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 4 0 2019-04-23 13:46:04.035
+!MESSAGE Demo information file is empty at C:\SiliconLabs\SimplicityStudio\v4\configuration\org.eclipse.osgi\513\0\.cp\demos\demos.xml
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 13:46:05.002
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in framework bootloader
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 13:46:05.742
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in sample app UART XMODEM Bootloader
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 13:46:06.052
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in sample app EZSP SPI Bootloader
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 13:46:06.068
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in sample app SPI Flash Storage Bootloader (multiple images)
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 13:46:06.077
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in sample app SPI Flash Storage Bootloader (single image)
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 13:46:06.085
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in sample app Internal Storage Bootloader (multiple images on 1MB device)
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 13:46:06.092
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in sample app Internal Storage Bootloader (single image on 1MB device)
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 13:46:06.100
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in sample app Internal Storage Bootloader (single image on 512kB device)
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 13:46:06.119
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in sample app Internal Storage Bootloader (single image with LZMA compression, 1MB flash)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-23 13:50:33.522
+!MESSAGE Indexed 'motor test' (50 sources, 139 headers) in 6.62 sec: 8,302 declarations; 28,190 references; 0 unresolved inclusions; 27 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.silabs.ss.framework.debugger.tcf.agent 1 0 2019-04-23 13:52:21.932
+!MESSAGE Launching SiAgent (Silicon Labs TCF Agent)
+
+!ENTRY org.eclipse.cdt.debug.edc 4 0 2019-04-23 13:52:28.566
+!MESSAGE Unknown context [rc.root.000440097784] is reported in suspended event. Make sure TCF agent has reported contextAdded event first.
+
+!ENTRY com.silabs.ss.framework.debugger.tcf.agent 1 0 2019-04-23 13:54:30.630
+!MESSAGE Launching SiAgent (Silicon Labs TCF Agent)
+
+!ENTRY org.eclipse.cdt.debug.edc 4 0 2019-04-23 13:54:33.857
+!MESSAGE Unknown context [rc.root.000440097784] is reported in suspended event. Make sure TCF agent has reported contextAdded event first.
