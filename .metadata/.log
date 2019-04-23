@@ -86,3 +86,9 @@ org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:
 
 !ENTRY org.eclipse.cdt.debug.edc 4 0 2019-04-23 13:54:33.857
 !MESSAGE Unknown context [rc.root.000440097784] is reported in suspended event. Make sure TCF agent has reported contextAdded event first.
+
+!ENTRY com.silabs.ss.framework.debugger.tcf.agent 1 0 2019-04-23 13:56:12.951
+!MESSAGE Launching SiAgent (Silicon Labs TCF Agent)
+
+!ENTRY org.eclipse.cdt.debug.edc 4 0 2019-04-23 13:56:16.176
+!MESSAGE Unknown context [rc.root.000440097784] is reported in suspended event. Make sure TCF agent has reported contextAdded event first.
