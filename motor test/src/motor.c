@@ -41,23 +41,22 @@ void robot_stop(void){
 }
 //robot backward
 void robot_backward(void){
-
-//	GPIO_PinOutSet(MOTOR_PORT, RIGHT_MOTOR_PWM);
 	GPIO_PinOutSet(MOTOR_PORT, RIGHT_MOTOR_DIR);
-//	GPIO_PinOutSet(MOTOR_PORT, LEFT_MOTOR_PWM);
 	GPIO_PinOutSet(MOTOR_PORT, LEFT_MOTOR_DIR);
+	TIMER0->CC[0].CCV=MOTOR_SPEED;		//right //use to change value  < CC Channel Buffer Register
+	TIMER0->CC[1].CCV=MOTOR_SPEED;		//left //use to change value  < CC Channel Buffer Register
 }
 //robot left
 void robot_left(void){
-//	GPIO_PinOutSet(MOTOR_PORT, RIGHT_MOTOR_PWM);
 	GPIO_PinOutSet(MOTOR_PORT, RIGHT_MOTOR_DIR);
-//	GPIO_PinOutSet(MOTOR_PORT, LEFT_MOTOR_PWM);
 	GPIO_PinOutClear(MOTOR_PORT, LEFT_MOTOR_DIR);
+	TIMER0->CC[0].CCV=MOTOR_SPEED;		//right //use to change value  < CC Channel Buffer Register
+	TIMER0->CC[1].CCV=MOTOR_SPEED;		//left //use to change value  < CC Channel Buffer Register
 }
 //robot right
 void robot_right(void){
-//	GPIO_PinOutSet(MOTOR_PORT, RIGHT_MOTOR_PWM);
 	GPIO_PinOutClear(MOTOR_PORT, RIGHT_MOTOR_DIR);
-//	GPIO_PinOutSet(MOTOR_PORT, LEFT_MOTOR_PWM);
 	GPIO_PinOutSet(MOTOR_PORT, LEFT_MOTOR_DIR);
+	TIMER0->CC[0].CCV=MOTOR_SPEED;		//right //use to change value  < CC Channel Buffer Register
+	TIMER0->CC[1].CCV=MOTOR_SPEED;		//left //use to change value  < CC Channel Buffer Register
 }

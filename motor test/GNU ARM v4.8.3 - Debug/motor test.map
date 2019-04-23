@@ -7214,7 +7214,7 @@ OUTPUT(motor test.axf elf32-littlearm)
  .debug_macro   0x00001cba      0x2c6 ./src/motor.o
  .debug_macro   0x00001f80      0x2d0 ./src/timer.o
 
-.debug_str      0x00000000   0x154c8f
+.debug_str      0x00000000   0x154c90
  .debug_str     0x00000000   0x14da48 ./CMSIS/EFM32PG12B/system_efm32pg12b.o
                              0x14e91a (size before relaxing)
  .debug_str     0x0014da48     0x39ca ./emlib/em_cmu.o
@@ -7227,12 +7227,12 @@ OUTPUT(motor test.axf elf32-littlearm)
                              0x14ef6a (size before relaxing)
  .debug_str     0x00153481       0x16 ./src/cmu.o
                              0x14fd12 (size before relaxing)
- .debug_str     0x00153497     0x1770 ./src/main.o
-                             0x152809 (size before relaxing)
- .debug_str     0x00154c07       0x5e ./src/motor.o
-                             0x14fd0f (size before relaxing)
- .debug_str     0x00154c65       0x2a ./src/timer.o
-                             0x14fbb5 (size before relaxing)
+ .debug_str     0x00153497     0x1771 ./src/main.o
+                             0x15280a (size before relaxing)
+ .debug_str     0x00154c08       0x5e ./src/motor.o
+                             0x14fd10 (size before relaxing)
+ .debug_str     0x00154c66       0x2a ./src/timer.o
+                             0x14fbb6 (size before relaxing)
 
 .debug_frame    0x00000000     0x161c
  .debug_frame   0x00000000      0x164 ./CMSIS/EFM32PG12B/system_efm32pg12b.o

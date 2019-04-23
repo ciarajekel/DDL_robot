@@ -36,7 +36,7 @@
 #endif
 #define MOTOR_PORT		gpioPortF //TODO
 #define MOTOR_DEFAULT	0
-#define MOTOR_SPEED 	15000
+#define MOTOR_SPEED 	10000
 #define MOTOR_MAX_SPEED	15000
 
 void motor_gpio_init();
