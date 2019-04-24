@@ -1,0 +1,18 @@
+/*
+ * adc.h
+ *
+ *  Created on: Apr 23, 2019
+ *      Author: Ciara
+ */
+
+#ifndef SRC_ADC_H_
+#define SRC_ADC_H_
+
+#include "em_device.h"
+#include "em_chip.h"
+#include "em_core.h"
+
+void adc_init(void);
+
+
+#endif /* SRC_ADC_H_ */

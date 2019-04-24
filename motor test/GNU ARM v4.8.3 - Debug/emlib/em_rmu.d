@@ -58,7 +58,7 @@ emlib/em_rmu.o: ../emlib/em_rmu.c \
  c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_common.h \
  c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_emu.h \
  c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_bus.h \
- c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_bus.h
+ C:\Users\Ciara\Desktop\DDL\DDL_robot\motor\ test\external_copied_files_inc/em_bus.h
 
 c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_rmu.h:
 
@@ -178,4 +178,4 @@ c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\
 
 c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_bus.h:
 
-c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_bus.h:
+C:\Users\Ciara\Desktop\DDL\DDL_robot\motor\ test\external_copied_files_inc/em_bus.h:

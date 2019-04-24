@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.silabs.ss.framework.ide.project.core.cdtMbsProjectType">
+		<item value="LINK" key="importOption"/>
+		<list key="fileLocationHistory">
+			<item value="C:\Users\Ciara\Desktop\DDL\DDL_robot\motor test"/>
+		</list>
+		<list key="fileLocations">
+			<item value="C:\Users\Ciara\Desktop\DDL\DDL_robot\motor test"/>
+		</list>
+	</section>
+</section>

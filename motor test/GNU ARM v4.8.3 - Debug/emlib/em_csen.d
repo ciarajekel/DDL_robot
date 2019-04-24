@@ -55,10 +55,12 @@ emlib/em_csen.o: ../emlib/em_csen.c \
  c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\device\siliconlabs\efm32pg12b\include\efm32pg12b_af_ports.h \
  c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\device\siliconlabs\efm32pg12b\include\efm32pg12b_af_pins.h \
  c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_bus.h \
- c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_assert.h \
- c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_cmu.h \
- c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_assert.h \
- c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_gpio.h
+ C:\Users\Ciara\Desktop\DDL\DDL_robot\motor\ test\external_copied_files_inc/em_assert.h \
+ C:\Users\Ciara\Desktop\DDL\DDL_robot\motor\ test\external_copied_files/em_cmu.h \
+ C:\Users\Ciara\Desktop\DDL\DDL_robot\motor\ test\external_copied_files_inc/em_bus.h \
+ C:\Users\Ciara\Desktop\DDL\DDL_robot\motor\ test\external_copied_files_inc/em_gpio.h \
+ C:\Users\Ciara\Desktop\DDL\DDL_robot\motor\ test\external_copied_files_inc/em_bus.h \
+ C:\Users\Ciara\Desktop\DDL\DDL_robot\motor\ test\external_copied_files_inc/em_assert.h
 
 c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_csen.h:
 
@@ -172,10 +174,14 @@ c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\
 
 c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_bus.h:
 
-c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_assert.h:
+C:\Users\Ciara\Desktop\DDL\DDL_robot\motor\ test\external_copied_files_inc/em_assert.h:
 
-c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_cmu.h:
+C:\Users\Ciara\Desktop\DDL\DDL_robot\motor\ test\external_copied_files/em_cmu.h:
 
-c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_assert.h:
+C:\Users\Ciara\Desktop\DDL\DDL_robot\motor\ test\external_copied_files_inc/em_bus.h:
 
-c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_gpio.h:
+C:\Users\Ciara\Desktop\DDL\DDL_robot\motor\ test\external_copied_files_inc/em_gpio.h:
+
+C:\Users\Ciara\Desktop\DDL\DDL_robot\motor\ test\external_copied_files_inc/em_bus.h:
+
+C:\Users\Ciara\Desktop\DDL\DDL_robot\motor\ test\external_copied_files_inc/em_assert.h:

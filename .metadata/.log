@@ -155,3 +155,159 @@ java.net.SocketException: Connection reset
 	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:162)
 	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
 	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:254)
+
+!ENTRY com.silabs.ss.framework.debugger.tcf.agent 1 0 2019-04-23 14:02:58.734
+!MESSAGE Launching SiAgent (Silicon Labs TCF Agent)
+
+!ENTRY org.eclipse.cdt.debug.edc 4 0 2019-04-23 14:03:02.406
+!MESSAGE Unknown context [rc.root.000440097784] is reported in suspended event. Make sure TCF agent has reported contextAdded event first.
+
+!ENTRY com.silabs.ss.framework.debugger.tcf.agent 1 0 2019-04-23 14:05:06.607
+!MESSAGE Launching SiAgent (Silicon Labs TCF Agent)
+
+!ENTRY org.eclipse.cdt.debug.edc 4 0 2019-04-23 14:05:09.800
+!MESSAGE Unknown context [rc.root.000440097784] is reported in suspended event. Make sure TCF agent has reported contextAdded event first.
+
+!ENTRY com.silabs.ss.framework.debugger.tcf.core 4 0 2019-04-23 14:05:21.745
+!MESSAGE TCF task failed
+!STACK 0
+java.io.IOException: Command [C 9505 DebugAdapter disconnect "root.000440097784"] aborted
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:753)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:162)
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:254)
+
+!ENTRY org.eclipse.tcf 4 0 2019-04-23 14:05:21.770
+!MESSAGE Cannot close channel streams
+!STACK 0
+java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:116)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
+	at org.eclipse.tcf.core.ChannelTCP.stop(ChannelTCP.java:200)
+	at org.eclipse.tcf.core.AbstractChannel$8.run(AbstractChannel.java:716)
+
+!ENTRY com.silabs.ss.framework.debugger.tcf.agent 4 0 2019-04-23 14:05:21.779
+!MESSAGE Lost connection to agent
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:162)
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:254)
+
+!ENTRY org.eclipse.cdt.debug.edc 4 0 2019-04-23 14:05:21.800
+!MESSAGE Lost connection to debugger agent "Silicon Labs TCF Agent". It's usually because the agent died abnormally.
+
+The debug session "Silicon Labs ARM MCU: EFM32PG12B500F1024GL125" will be terminated.
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:162)
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:254)
+
+!ENTRY com.silabs.ss.framework.debugger.tcf.agent 1 0 2019-04-23 14:08:39.239
+!MESSAGE Launching SiAgent (Silicon Labs TCF Agent)
+
+!ENTRY org.eclipse.cdt.debug.edc 4 0 2019-04-23 14:08:42.539
+!MESSAGE Unknown context [rc.root.000440097784] is reported in suspended event. Make sure TCF agent has reported contextAdded event first.
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:36.894
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin bgapi-uart-dfu
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:37.210
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin ezsp-spi
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:37.266
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin xmodem-parser
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:37.338
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin xmodem-uart
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:37.433
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin gpio-activation
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:38.456
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin internal_flash
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:38.575
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin spiflash
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:38.651
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin core
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:38.701
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin upgrade-version
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:38.709
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin parser
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:38.726
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin parser-eblv2
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:38.763
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin parser-noenc
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:38.778
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin gbl-compression-lz4
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:38.786
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin gbl-compression-lzma
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:38.795
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin crc
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:38.802
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin crypto
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:38.810
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin debug
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:38.836
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin delay-driver
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:38.843
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin emlib
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:38.851
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin mbedtls
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:38.896
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin spi-driver
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:38.902
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin spislave-driver
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:38.911
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin storage-common
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:38.946
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin storage-common-single
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:38.957
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin token-management
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-23 15:23:38.963
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in plugin uart-driver
+
+!ENTRY com.silabs.ss.framework.project.core 4 0 2019-04-23 15:23:39.795
+!MESSAGE Module file not found: C:\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.5\.studio\.\modules\LibraryModules\Micrium\uCos3Client.slsproj

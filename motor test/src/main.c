@@ -50,16 +50,16 @@ int main(void)
 
   /* Infinite dance loop */
   while (1) {
-	  robot_forward();
-	  for(int i=0;i<2500000;i++);
-	  robot_backward();
-	  for(int i=0;i<2500000;i++);
-	  robot_left();
-	  for(int i=0;i<2500000;i++);
-	  robot_right();
-	  for(int i=0;i<2500000;i++);
-	  robot_stop();
-	  for(int i=0;i<2500000;i++);
+//	  robot_forward();
+//	  for(int i=0;i<2500000;i++);
+//	  robot_backward();
+//	  for(int i=0;i<2500000;i++);
+//	  robot_left();
+//	  for(int i=0;i<2500000;i++);
+//	  robot_right();
+//	  for(int i=0;i<2500000;i++);
+//	  robot_stop();
+//	  for(int i=0;i<2500000;i++);
 
   }
 }
