@@ -24,11 +24,9 @@
 #include "em_emu.h"
 #include "bsp.h"
 #include "main.h"
-
 #include "cmu.h"
 #include "timer.h"
 #include "motor.h"
-#include "adc.h"
 
 int main(void)
 {

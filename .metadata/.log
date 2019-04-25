@@ -311,3 +311,49 @@ java.net.SocketException: Connection reset
 
 !ENTRY com.silabs.ss.framework.project.core 4 0 2019-04-23 15:23:39.795
 !MESSAGE Module file not found: C:\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.5\.studio\.\modules\LibraryModules\Micrium\uCos3Client.slsproj
+!SESSION 2019-04-25 13:02:08.091 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.silabs.ss.tool.ide.arm.toolchain.iar 1 0 2019-04-25 13:03:19.964
+!MESSAGE detectIAREWARMFromRegistry: null
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2019-04-25 13:05:22.618
+!MESSAGE Unknown architecture(s) [efr32~series[2]] in framework bootloader
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2019-04-25 13:05:33.271
+!MESSAGE Local timestamp file does not exist: C:\SiliconLabs\SimplicityStudio\v4\offline\common\Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.timestamp
+
+!ENTRY com.silabs.ss.platform.installer.base 1 0 2019-04-25 13:05:39.674
+!MESSAGE Secure archive download use of proxy is: false
+
+!ENTRY com.silabs.ss.platform.installer.core 4 0 2019-04-25 13:05:59.238
+!MESSAGE No repository found at jar:file:/C:/SiliconLabs/SimplicityStudio/v4/offline/archive/control/stacks/MosKRNX/krnx_archive.zip!/updates/.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/C:/SiliconLabs/SimplicityStudio/v4/offline/archive/control/stacks/MosKRNX/krnx_archive.zip!/updates/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.basicRefreshRepository(AbstractRepositoryManager.java:203)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.refreshRepository(MetadataRepositoryManager.java:100)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.getLocalStudioMetadataRepoToIu(InstallerUtils.java:620)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.findFeaturesForCapabilities(InstallerUtils.java:747)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.scanFeaturesProvidingMetadata(InstallerUtils.java:438)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.getPackageProvidingMetadata(InstallerUtils.java:459)
+	at com.silabs.ss.platform.internal.installer.core.PackageService.loadRemotePackages(PackageService.java:683)
+	at com.silabs.ss.platform.internal.installer.core.PackageService.getAllAvailablePackages(PackageService.java:141)
+	at com.silabs.ss.platform.internal.installer.core.PackageService.getEarlyAccessIncludedPackages(PackageService.java:361)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.processPreInstallPackages(InstallerUtils.java:2038)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.ensurePackagesFetched(InstallerUtils.java:1964)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager.updatePackageMetadata(UpdateManager.java:215)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager.ensureUpdatesFetched(UpdateManager.java:286)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager.access$4(UpdateManager.java:277)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager$1.run(UpdateManager.java:166)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2019-04-25 13:05:59.282
+!MESSAGE No repository found at jar:file:/C:/SiliconLabs/SimplicityStudio/v4/offline/archive/control/stacks/MosKRNX/krnx_archive.zip!/updates/.
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2019-04-25 13:06:07.254
+!MESSAGE Local timestamp file does not exist: C:\SiliconLabs\SimplicityStudio\v4\offline\common\Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.timestamp
