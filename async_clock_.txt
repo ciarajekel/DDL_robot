@@ -1,0 +1,9 @@
+add in cmu.c:
+
+ 		CMU->ADCCTRL |= CMU_ADCCTRL_ADC0CLKSEL_AUXHFRCO;
+
+
+change in adc.c:
+
+	adc_ctrl_settings.em2ClockConfig = adcEm2ClockOnDemand;
+
