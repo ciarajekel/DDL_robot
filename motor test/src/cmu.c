@@ -31,6 +31,7 @@ void cmu_init(void){
 		CMU_ClockSelectSet(cmuClock_LFA, cmuSelect_LFXO);	// routing clock to LFA
 
 		CMU_OscillatorEnable(cmuOsc_AUXHFRCO, true, true);
+		CMU_ClockSelectSet(cmuClock_ADC0,cmuSelect_AUXHFRCO);
 //		CMU_ClockSelectSet(cmuClock_ADC0ASYNC,cmuSelect_AUXHFRCO);
 
 		CMU_ClockEnable(cmuClock_LFA, true);
@@ -39,8 +40,8 @@ void cmu_init(void){
 		// Peripheral clocks enabled
 		CMU_ClockEnable(cmuClock_GPIO, true);
 		CMU_ClockEnable(cmuClock_TIMER0,true);
+		CMU_ClockEnable(cmuClock_ADC0,true);
 //		CMU_ClockEnable(cmuClock_ADC0ASYNC,true);
-//		CMU_ClockEnable(cmuClock_ADC0,true);
 
 }
 

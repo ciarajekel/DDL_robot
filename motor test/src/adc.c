@@ -6,16 +6,53 @@
  */
 
 #include "adc.h"
+void adc_gpio_init(void){
+	GPIO_PinModeSet(SENSOR_PORT, SENSOR_PIN, gpioModeDisabled,0);
+}
 
 void adc_init(void){
-	ADC0->CTRL = ADC_CTRL_TIMEBASE_DEFAULT | ADC_CTRL_ADCCLKMODE_ASYNC;
+//	ADC0->CTRL = ADC_CTRL_TIMEBASE_DEFAULT | ADC_CTRL_ADCCLKMODE_SYNC;
+//	ADC0->SINGLECTRL = ADC_SINGLECTRL_REF_VDD | ADC_SINGLECTRL_NEGSEL_VSS | ADC_SINGLECTRL_POSSEL_APORT3YCH11;
+//	ADC0->IEN |= ADC_IEN_SINGLE;
 
-	ADC0->SINGLECTRL = ADC_CTRL_TIMEBASE_DEFAULT | ADC_CTRL_ADCCLKMODE_ASYNC |
-						ADC_SINGLECTRL_REF_5V | ADC_SINGLECTRL_POSSEL_APORT0XCH0;//[#][X/Y]CH[#];
+//	adc_freq = CMU_ClockFreqGet(cmuClock_ADC0);
 
+	ADC_Init_TypeDef adc_ctrl_settings;
+	ADC_InitSingle_TypeDef adc_singlectrl_settings;
 
-	ADC0->IEN = ADC_IEN_SINGLE;
-	//ADC_SINGLECTRL_POSSEL_APORT[#][X/Y]CH[#]
+	adc_ctrl_settings.ovsRateSel = adcOvsRateSel2;
+	adc_ctrl_settings.warmUpMode = adcWarmupNormal;
+	adc_ctrl_settings.timebase = ADC_CTRL_TIMEBASE_DEFAULT;
+	adc_ctrl_settings.prescale = ADC_CTRL_PRESC_DEFAULT;
+	adc_ctrl_settings.tailgate = false;
+	adc_ctrl_settings.em2ClockConfig = adcEm2Disabled;//adcEm2ClockAlwaysOn;// adcEm2ClockOnDemand;//     = ADC_CTRL_ADCCLKMODE_ASYNC | ADC_CTRL_ASYNCCLKEN_ASNEEDED,
+			 	 	 	 	 	 	  // adcEm2ClockAlwaysOn      = ADC_CTRL_ADCCLKMODE_ASYNC | ADC_CTRL_ASYNCCLKEN_ALWAYSON,
+	adc_singlectrl_settings.prsSel=adcPRSSELCh0;
+	adc_singlectrl_settings.acqTime=adcAcqTime1;
+	adc_singlectrl_settings.reference=adcRefVDD;
+	adc_singlectrl_settings.resolution=adcRes12Bit;
+	adc_singlectrl_settings.posSel=adcPosSelAPORT3YCH11;
+	adc_singlectrl_settings.negSel=adcNegSelVSS;
+	adc_singlectrl_settings.diff=false;
+	adc_singlectrl_settings.prsEnable=false;
+	adc_singlectrl_settings.leftAdjust=false;
+	adc_singlectrl_settings.rep=false;
+	adc_singlectrl_settings.singleDmaEm2Wu = false;
+	adc_singlectrl_settings.fifoOverwrite = false;
 
-	//read = ADC0->SINGLEDATA
+	ADC0->BIASPROG = ADC_BIASPROG_GPBIASACC;
+
+	ADC_InitSingle(ADC0,&adc_singlectrl_settings);
+	ADC_Init(ADC0,&adc_ctrl_settings);
+//	ADC0->CTRL |= ADC_CTRL_ADCCLKMODE_ASYNC;
+
+	ADC0->IEN |= ADC_IEN_SINGLE;
+
+	NVIC_EnableIRQ(ADC0_IRQn);
+
+}
+uint32_t adcreaddata;
+void ADC0_IRQHandler (void){
+//	ADC0->IEN &= ~ADC_IEN_SINGLE;
+	adcreaddata=ADC0->SINGLEDATA;
 }

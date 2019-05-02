@@ -55,7 +55,7 @@ emlib/em_cryotimer.o: ../emlib/em_cryotimer.c \
  c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\device\siliconlabs\efm32pg12b\include\efm32pg12b_af_ports.h \
  c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\device\siliconlabs\efm32pg12b\include\efm32pg12b_af_pins.h \
  c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_bus.h \
- C:\Users\Ciara\Desktop\DDL\DDL_robot\motor\ test\external_copied_files_inc/em_bus.h
+ c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_bus.h
 
 c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_cryotimer.h:
 
@@ -169,4 +169,4 @@ c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\
 
 c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_bus.h:
 
-C:\Users\Ciara\Desktop\DDL\DDL_robot\motor\ test\external_copied_files_inc/em_bus.h:
+c:\siliconlabs\simplicitystudio\v4\developer\sdks\gecko_sdk_suite\v2.5\platform\emlib\inc\em_bus.h:

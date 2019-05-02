@@ -11,7 +11,6 @@
 #include "em_chip.h"
 #include "em_core.h"
 #include "timer.h"
-#include "gpio.h"
 
 /*
  DIR    PWM

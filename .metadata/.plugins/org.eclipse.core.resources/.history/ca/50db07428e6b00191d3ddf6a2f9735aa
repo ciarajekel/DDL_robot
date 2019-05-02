@@ -1,0 +1,29 @@
+													/*
+ * adc.c
+ *
+ *  Created on: Apr 23, 2019
+ *      Author: Ciara
+ */
+
+#include "adc.h"
+void adc_gpio_init(void){
+	GPIO_PinModeSet(SENSOR_PORT, SENSOR_PIN, gpioModeDisabled,0);
+
+}
+
+void adc_init(void){
+	ADC0->CTRL = ADC_CTRL_TIMEBASE_DEFAULT | ADC_CTRL_ADCCLKMODE_SYNC;
+
+	ADC0->SINGLECTRL = ADC_SINGLECTRL_REF_5V | ADC_SINGLECTRL_POSSEL_APORT3YCH11;//[#][X/Y]CH[#];
+
+
+	ADC0->IEN |= ADC_IEN_SINGLE;
+	//ADC_SINGLECTRL_POSSEL_APORT[#][X/Y]CH[#]
+
+	//read = ADC0->SINGLEDATA
+}
+uint32_t adcreaddata;
+void ADC0_IRQHandler (void){
+//	ADC0->IEN &= ~ADC_IEN_SINGLE;
+	adcreaddata=ADC0->SINGLEDATA;
+}

@@ -23,6 +23,11 @@ c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/.
 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libnosys.a(_exit.o)
                               c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-exit.o) (_exit)
 
+Allocating common symbols
+Common symbol       size              file
+
+adcreaddata         0x4               ./src/adc.o
+
 Discarded input sections
 
  .text          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crti.o
@@ -89,7 +94,6 @@ Discarded input sections
  .group         0x00000000        0x8 ./BSP/bsp_stk_leds.o
  .group         0x00000000        0x8 ./BSP/bsp_stk_leds.o
  .group         0x00000000        0x8 ./BSP/bsp_stk_leds.o
- .group         0x00000000        0x8 ./BSP/bsp_stk_leds.o
  .text          0x00000000        0x0 ./BSP/bsp_stk_leds.o
  .data          0x00000000        0x0 ./BSP/bsp_stk_leds.o
  .bss           0x00000000        0x0 ./BSP/bsp_stk_leds.o
@@ -97,7 +101,7 @@ Discarded input sections
  .debug_abbrev  0x00000000       0x4e ./BSP/bsp_stk_leds.o
  .debug_aranges
                 0x00000000       0x18 ./BSP/bsp_stk_leds.o
- .debug_macro   0x00000000      0x2de ./BSP/bsp_stk_leds.o
+ .debug_macro   0x00000000      0x2d5 ./BSP/bsp_stk_leds.o
  .debug_macro   0x00000000      0x880 ./BSP/bsp_stk_leds.o
  .debug_macro   0x00000000      0x4b1 ./BSP/bsp_stk_leds.o
  .debug_macro   0x00000000       0x22 ./BSP/bsp_stk_leds.o
@@ -113,7 +117,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./BSP/bsp_stk_leds.o
  .debug_macro   0x00000000     0x2276 ./BSP/bsp_stk_leds.o
  .debug_macro   0x00000000      0x32a ./BSP/bsp_stk_leds.o
- .debug_macro   0x00000000     0x3112 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x00000000     0x3119 ./BSP/bsp_stk_leds.o
  .debug_macro   0x00000000     0x1bbb ./BSP/bsp_stk_leds.o
  .debug_macro   0x00000000     0x2675 ./BSP/bsp_stk_leds.o
  .debug_macro   0x00000000     0x1b1a ./BSP/bsp_stk_leds.o
@@ -146,18 +150,17 @@ Discarded input sections
  .debug_macro   0x00000000     0x27bf ./BSP/bsp_stk_leds.o
  .debug_macro   0x00000000      0x304 ./BSP/bsp_stk_leds.o
  .debug_macro   0x00000000      0x304 ./BSP/bsp_stk_leds.o
- .debug_macro   0x00000000       0x10 ./BSP/bsp_stk_leds.o
  .debug_macro   0x00000000       0x22 ./BSP/bsp_stk_leds.o
  .debug_macro   0x00000000       0x10 ./BSP/bsp_stk_leds.o
- .debug_macro   0x00000000       0xe4 ./BSP/bsp_stk_leds.o
+ .debug_macro   0x00000000       0xea ./BSP/bsp_stk_leds.o
  .debug_macro   0x00000000      0x33e ./BSP/bsp_stk_leds.o
  .debug_macro   0x00000000      0x1c0 ./BSP/bsp_stk_leds.o
  .debug_macro   0x00000000       0x1d ./BSP/bsp_stk_leds.o
  .debug_macro   0x00000000       0x76 ./BSP/bsp_stk_leds.o
  .debug_macro   0x00000000       0xf1 ./BSP/bsp_stk_leds.o
  .debug_macro   0x00000000       0x3a ./BSP/bsp_stk_leds.o
- .debug_line    0x00000000      0xa9f ./BSP/bsp_stk_leds.o
- .debug_str     0x00000000   0x150973 ./BSP/bsp_stk_leds.o
+ .debug_line    0x00000000      0xa0f ./BSP/bsp_stk_leds.o
+ .debug_str     0x00000000   0x150980 ./BSP/bsp_stk_leds.o
  .comment       0x00000000       0x71 ./BSP/bsp_stk_leds.o
  .ARM.attributes
                 0x00000000       0x37 ./BSP/bsp_stk_leds.o
@@ -233,7 +236,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./CMSIS/EFM32PG12B/system_efm32pg12b.o
  .debug_macro   0x00000000     0x2276 ./CMSIS/EFM32PG12B/system_efm32pg12b.o
  .debug_macro   0x00000000      0x32a ./CMSIS/EFM32PG12B/system_efm32pg12b.o
- .debug_macro   0x00000000     0x3112 ./CMSIS/EFM32PG12B/system_efm32pg12b.o
+ .debug_macro   0x00000000     0x3119 ./CMSIS/EFM32PG12B/system_efm32pg12b.o
  .debug_macro   0x00000000     0x1bbb ./CMSIS/EFM32PG12B/system_efm32pg12b.o
  .debug_macro   0x00000000     0x2675 ./CMSIS/EFM32PG12B/system_efm32pg12b.o
  .debug_macro   0x00000000     0x1b1a ./CMSIS/EFM32PG12B/system_efm32pg12b.o
@@ -373,7 +376,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_acmp.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_acmp.o
  .debug_macro   0x00000000      0x32a ./emlib/em_acmp.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_acmp.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_acmp.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_acmp.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_acmp.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_acmp.o
@@ -410,8 +413,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./emlib/em_acmp.o
  .debug_macro   0x00000000       0xe4 ./emlib/em_acmp.o
  .debug_macro   0x00000000       0x20 ./emlib/em_acmp.o
- .debug_line    0x00000000      0xab5 ./emlib/em_acmp.o
- .debug_str     0x00000000   0x1507e3 ./emlib/em_acmp.o
+ .debug_line    0x00000000      0xa43 ./emlib/em_acmp.o
+ .debug_str     0x00000000   0x150806 ./emlib/em_acmp.o
  .comment       0x00000000       0x71 ./emlib/em_acmp.o
  .debug_frame   0x00000000      0x24c ./emlib/em_acmp.o
  .ARM.attributes
@@ -470,22 +473,9 @@ Discarded input sections
  .group         0x00000000        0x8 ./emlib/em_adc.o
  .group         0x00000000        0x8 ./emlib/em_adc.o
  .group         0x00000000        0x8 ./emlib/em_adc.o
- .group         0x00000000        0x8 ./emlib/em_adc.o
  .text          0x00000000        0x0 ./emlib/em_adc.o
  .data          0x00000000        0x0 ./emlib/em_adc.o
  .bss           0x00000000        0x0 ./emlib/em_adc.o
- .text.BUS_RegBitWrite
-                0x00000000       0x2c ./emlib/em_adc.o
- .text.BUS_RegMaskedSet
-                0x00000000       0x24 ./emlib/em_adc.o
- .text.BUS_RegMaskedClear
-                0x00000000       0x24 ./emlib/em_adc.o
- .text.BUS_RegMaskedWrite
-                0x00000000       0x24 ./emlib/em_adc.o
- .text.ADC_LoadDevinfoCal
-                0x00000000      0x1bc ./emlib/em_adc.o
- .text.ADC_Init
-                0x00000000       0xd4 ./emlib/em_adc.o
  .text.ADC_ScanInputClear
                 0x00000000       0x28 ./emlib/em_adc.o
  .text.ADC_ScanSingleEndedInputAdd
@@ -494,23 +484,12 @@ Discarded input sections
                 0x00000000      0x188 ./emlib/em_adc.o
  .text.ADC_InitScan
                 0x00000000      0x110 ./emlib/em_adc.o
- .text.ADC_InitSingle
-                0x00000000      0x12c ./emlib/em_adc.o
  .text.ADC_DataIdScanGet
                 0x00000000       0x2c ./emlib/em_adc.o
- .text.ADC_PrescaleCalc
-                0x00000000       0x70 ./emlib/em_adc.o
  .text.ADC_Reset
                 0x00000000       0x98 ./emlib/em_adc.o
  .text.ADC_TimebaseCalc
                 0x00000000       0x50 ./emlib/em_adc.o
- .debug_info    0x00000000     0x1cb8 ./emlib/em_adc.o
- .debug_abbrev  0x00000000      0x22f ./emlib/em_adc.o
- .debug_loc     0x00000000      0x504 ./emlib/em_adc.o
- .debug_aranges
-                0x00000000       0x90 ./emlib/em_adc.o
- .debug_ranges  0x00000000       0x80 ./emlib/em_adc.o
- .debug_macro   0x00000000      0x330 ./emlib/em_adc.o
  .debug_macro   0x00000000      0x880 ./emlib/em_adc.o
  .debug_macro   0x00000000      0x4b1 ./emlib/em_adc.o
  .debug_macro   0x00000000       0x22 ./emlib/em_adc.o
@@ -526,7 +505,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_adc.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_adc.o
  .debug_macro   0x00000000      0x32a ./emlib/em_adc.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_adc.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_adc.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_adc.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_adc.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_adc.o
@@ -560,18 +539,9 @@ Discarded input sections
  .debug_macro   0x00000000      0x304 ./emlib/em_adc.o
  .debug_macro   0x00000000      0x304 ./emlib/em_adc.o
  .debug_macro   0x00000000       0x22 ./emlib/em_adc.o
- .debug_macro   0x00000000       0x51 ./emlib/em_adc.o
  .debug_macro   0x00000000       0x10 ./emlib/em_adc.o
- .debug_macro   0x00000000       0x10 ./emlib/em_adc.o
- .debug_macro   0x00000000       0xe4 ./emlib/em_adc.o
+ .debug_macro   0x00000000       0xea ./emlib/em_adc.o
  .debug_macro   0x00000000      0x33e ./emlib/em_adc.o
- .debug_macro   0x00000000      0x166 ./emlib/em_adc.o
- .debug_line    0x00000000      0xb51 ./emlib/em_adc.o
- .debug_str     0x00000000   0x152f61 ./emlib/em_adc.o
- .comment       0x00000000       0x71 ./emlib/em_adc.o
- .debug_frame   0x00000000      0x248 ./emlib/em_adc.o
- .ARM.attributes
-                0x00000000       0x37 ./emlib/em_adc.o
  .group         0x00000000        0x8 ./emlib/em_aes.o
  .group         0x00000000        0x8 ./emlib/em_aes.o
  .group         0x00000000        0x8 ./emlib/em_aes.o
@@ -643,7 +613,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_aes.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_aes.o
  .debug_macro   0x00000000      0x32a ./emlib/em_aes.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_aes.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_aes.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_aes.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_aes.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_aes.o
@@ -677,7 +647,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x304 ./emlib/em_aes.o
  .debug_macro   0x00000000      0x304 ./emlib/em_aes.o
  .debug_line    0x00000000      0x812 ./emlib/em_aes.o
- .debug_str     0x00000000   0x14e3d1 ./emlib/em_aes.o
+ .debug_str     0x00000000   0x14e3f4 ./emlib/em_aes.o
  .comment       0x00000000       0x71 ./emlib/em_aes.o
  .ARM.attributes
                 0x00000000       0x37 ./emlib/em_aes.o
@@ -695,7 +665,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x880 ./emlib/em_assert.o
  .debug_macro   0x00000000       0x10 ./emlib/em_assert.o
  .debug_macro   0x00000000       0x22 ./emlib/em_assert.o
- .debug_line    0x00000000      0x10a ./emlib/em_assert.o
+ .debug_line    0x00000000      0x11a ./emlib/em_assert.o
  .debug_str     0x00000000     0x2573 ./emlib/em_assert.o
  .comment       0x00000000       0x71 ./emlib/em_assert.o
  .ARM.attributes
@@ -771,7 +741,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_burtc.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_burtc.o
  .debug_macro   0x00000000      0x32a ./emlib/em_burtc.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_burtc.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_burtc.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_burtc.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_burtc.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_burtc.o
@@ -805,11 +775,10 @@ Discarded input sections
  .debug_macro   0x00000000      0x304 ./emlib/em_burtc.o
  .debug_macro   0x00000000      0x304 ./emlib/em_burtc.o
  .debug_line    0x00000000      0x816 ./emlib/em_burtc.o
- .debug_str     0x00000000   0x14e3d5 ./emlib/em_burtc.o
+ .debug_str     0x00000000   0x14e3f8 ./emlib/em_burtc.o
  .comment       0x00000000       0x71 ./emlib/em_burtc.o
  .ARM.attributes
                 0x00000000       0x37 ./emlib/em_burtc.o
- .group         0x00000000        0x8 ./emlib/em_can.o
  .group         0x00000000        0x8 ./emlib/em_can.o
  .group         0x00000000        0x8 ./emlib/em_can.o
  .group         0x00000000        0x8 ./emlib/em_can.o
@@ -871,7 +840,7 @@ Discarded input sections
  .debug_abbrev  0x00000000       0x4e ./emlib/em_can.o
  .debug_aranges
                 0x00000000       0x18 ./emlib/em_can.o
- .debug_macro   0x00000000      0x2b0 ./emlib/em_can.o
+ .debug_macro   0x00000000      0x2a3 ./emlib/em_can.o
  .debug_macro   0x00000000      0x880 ./emlib/em_can.o
  .debug_macro   0x00000000      0x4b1 ./emlib/em_can.o
  .debug_macro   0x00000000       0x22 ./emlib/em_can.o
@@ -887,7 +856,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_can.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_can.o
  .debug_macro   0x00000000      0x32a ./emlib/em_can.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_can.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_can.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_can.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_can.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_can.o
@@ -923,16 +892,14 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 ./emlib/em_can.o
  .debug_macro   0x00000000       0x69 ./emlib/em_can.o
  .debug_macro   0x00000000       0x10 ./emlib/em_can.o
- .debug_macro   0x00000000       0x10 ./emlib/em_can.o
- .debug_macro   0x00000000       0xe4 ./emlib/em_can.o
+ .debug_macro   0x00000000       0xea ./emlib/em_can.o
  .debug_macro   0x00000000      0x33e ./emlib/em_can.o
  .debug_macro   0x00000000      0x166 ./emlib/em_can.o
- .debug_line    0x00000000      0x90a ./emlib/em_can.o
- .debug_str     0x00000000   0x14fe39 ./emlib/em_can.o
+ .debug_line    0x00000000      0x86e ./emlib/em_can.o
+ .debug_str     0x00000000   0x14fe46 ./emlib/em_can.o
  .comment       0x00000000       0x71 ./emlib/em_can.o
  .ARM.attributes
                 0x00000000       0x37 ./emlib/em_can.o
- .group         0x00000000        0x8 ./emlib/em_cmu.o
  .group         0x00000000        0x8 ./emlib/em_cmu.o
  .group         0x00000000        0x8 ./emlib/em_cmu.o
  .group         0x00000000        0x8 ./emlib/em_cmu.o
@@ -1039,7 +1006,6 @@ Discarded input sections
  .text.CMU_PCNTClockExternalSet
                 0x00000000       0x34 ./emlib/em_cmu.o
  .debug_macro   0x00000000      0x880 ./emlib/em_cmu.o
- .debug_macro   0x00000000       0x10 ./emlib/em_cmu.o
  .debug_macro   0x00000000      0x4b1 ./emlib/em_cmu.o
  .debug_macro   0x00000000       0x22 ./emlib/em_cmu.o
  .debug_macro   0x00000000       0x44 ./emlib/em_cmu.o
@@ -1054,7 +1020,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_cmu.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_cmu.o
  .debug_macro   0x00000000      0x32a ./emlib/em_cmu.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_cmu.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_cmu.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_cmu.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_cmu.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_cmu.o
@@ -1089,7 +1055,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x304 ./emlib/em_cmu.o
  .debug_macro   0x00000000       0x22 ./emlib/em_cmu.o
  .debug_macro   0x00000000       0x10 ./emlib/em_cmu.o
- .debug_macro   0x00000000       0xe4 ./emlib/em_cmu.o
+ .debug_macro   0x00000000       0xea ./emlib/em_cmu.o
  .debug_macro   0x00000000      0x33e ./emlib/em_cmu.o
  .debug_macro   0x00000000      0x166 ./emlib/em_cmu.o
  .debug_macro   0x00000000       0x69 ./emlib/em_cmu.o
@@ -1162,8 +1128,6 @@ Discarded input sections
                 0x00000000       0x28 ./emlib/em_core.o
  .text.CORE_AtomicDisableIrq
                 0x00000000       0x10 ./emlib/em_core.o
- .text.CORE_AtomicEnableIrq
-                0x00000000       0x10 ./emlib/em_core.o
  .text.CORE_EnterAtomic
                 0x00000000       0x20 ./emlib/em_core.o
  .text.CORE_ExitAtomic
@@ -1200,13 +1164,6 @@ Discarded input sections
                 0x00000000       0x44 ./emlib/em_core.o
  .text.CORE_InitNvicVectorTable
                 0x00000000       0xc8 ./emlib/em_core.o
- .debug_info    0x00000000      0xd36 ./emlib/em_core.o
- .debug_abbrev  0x00000000      0x24b ./emlib/em_core.o
- .debug_loc     0x00000000      0x88c ./emlib/em_core.o
- .debug_aranges
-                0x00000000       0xe8 ./emlib/em_core.o
- .debug_ranges  0x00000000       0xd8 ./emlib/em_core.o
- .debug_macro   0x00000000      0x29b ./emlib/em_core.o
  .debug_macro   0x00000000      0x880 ./emlib/em_core.o
  .debug_macro   0x00000000      0x4b1 ./emlib/em_core.o
  .debug_macro   0x00000000       0x22 ./emlib/em_core.o
@@ -1222,7 +1179,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_core.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_core.o
  .debug_macro   0x00000000      0x32a ./emlib/em_core.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_core.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_core.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_core.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_core.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_core.o
@@ -1256,15 +1213,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x304 ./emlib/em_core.o
  .debug_macro   0x00000000      0x304 ./emlib/em_core.o
  .debug_macro   0x00000000       0x22 ./emlib/em_core.o
- .debug_macro   0x00000000       0x63 ./emlib/em_core.o
- .debug_macro   0x00000000       0xba ./emlib/em_core.o
  .debug_macro   0x00000000       0x10 ./emlib/em_core.o
- .debug_line    0x00000000      0xbef ./emlib/em_core.o
- .debug_str     0x00000000   0x14f39d ./emlib/em_core.o
- .comment       0x00000000       0x71 ./emlib/em_core.o
- .debug_frame   0x00000000      0x3dc ./emlib/em_core.o
- .ARM.attributes
-                0x00000000       0x37 ./emlib/em_core.o
  .group         0x00000000        0x8 ./emlib/em_cryotimer.o
  .group         0x00000000        0x8 ./emlib/em_cryotimer.o
  .group         0x00000000        0x8 ./emlib/em_cryotimer.o
@@ -1346,7 +1295,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_cryotimer.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_cryotimer.o
  .debug_macro   0x00000000      0x32a ./emlib/em_cryotimer.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_cryotimer.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_cryotimer.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_cryotimer.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_cryotimer.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_cryotimer.o
@@ -1379,8 +1328,8 @@ Discarded input sections
  .debug_macro   0x00000000     0x27bf ./emlib/em_cryotimer.o
  .debug_macro   0x00000000      0x304 ./emlib/em_cryotimer.o
  .debug_macro   0x00000000      0x304 ./emlib/em_cryotimer.o
- .debug_line    0x00000000      0x8ea ./emlib/em_cryotimer.o
- .debug_str     0x00000000   0x14e8fd ./emlib/em_cryotimer.o
+ .debug_line    0x00000000      0x894 ./emlib/em_cryotimer.o
+ .debug_str     0x00000000   0x14e920 ./emlib/em_cryotimer.o
  .comment       0x00000000       0x71 ./emlib/em_cryotimer.o
  .debug_frame   0x00000000       0x80 ./emlib/em_cryotimer.o
  .ARM.attributes
@@ -1554,7 +1503,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_crypto.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_crypto.o
  .debug_macro   0x00000000      0x32a ./emlib/em_crypto.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_crypto.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_crypto.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_crypto.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_crypto.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_crypto.o
@@ -1601,13 +1550,12 @@ Discarded input sections
  .debug_macro   0x00000000      0x297 ./emlib/em_crypto.o
  .debug_macro   0x00000000       0x10 ./emlib/em_crypto.o
  .debug_macro   0x00000000       0x35 ./emlib/em_crypto.o
- .debug_line    0x00000000      0xe25 ./emlib/em_crypto.o
- .debug_str     0x00000000   0x1543bd ./emlib/em_crypto.o
+ .debug_line    0x00000000      0xddb ./emlib/em_crypto.o
+ .debug_str     0x00000000   0x1543e0 ./emlib/em_crypto.o
  .comment       0x00000000       0x71 ./emlib/em_crypto.o
  .debug_frame   0x00000000      0x634 ./emlib/em_crypto.o
  .ARM.attributes
                 0x00000000       0x37 ./emlib/em_crypto.o
- .group         0x00000000        0x8 ./emlib/em_csen.o
  .group         0x00000000        0x8 ./emlib/em_csen.o
  .group         0x00000000        0x8 ./emlib/em_csen.o
  .group         0x00000000        0x8 ./emlib/em_csen.o
@@ -1679,7 +1627,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x38 ./emlib/em_csen.o
  .debug_ranges  0x00000000       0x28 ./emlib/em_csen.o
- .debug_macro   0x00000000      0x2b2 ./emlib/em_csen.o
+ .debug_macro   0x00000000      0x2a5 ./emlib/em_csen.o
  .debug_macro   0x00000000      0x880 ./emlib/em_csen.o
  .debug_macro   0x00000000      0x4b1 ./emlib/em_csen.o
  .debug_macro   0x00000000       0x22 ./emlib/em_csen.o
@@ -1695,7 +1643,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_csen.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_csen.o
  .debug_macro   0x00000000      0x32a ./emlib/em_csen.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_csen.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_csen.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_csen.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_csen.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_csen.o
@@ -1731,12 +1679,11 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 ./emlib/em_csen.o
  .debug_macro   0x00000000       0x12 ./emlib/em_csen.o
  .debug_macro   0x00000000       0x10 ./emlib/em_csen.o
- .debug_macro   0x00000000       0x10 ./emlib/em_csen.o
- .debug_macro   0x00000000       0xe4 ./emlib/em_csen.o
+ .debug_macro   0x00000000       0xea ./emlib/em_csen.o
  .debug_macro   0x00000000      0x33e ./emlib/em_csen.o
  .debug_macro   0x00000000      0x166 ./emlib/em_csen.o
- .debug_line    0x00000000      0x98e ./emlib/em_csen.o
- .debug_str     0x00000000   0x150edf ./emlib/em_csen.o
+ .debug_line    0x00000000      0x8f2 ./emlib/em_csen.o
+ .debug_str     0x00000000   0x150eec ./emlib/em_csen.o
  .comment       0x00000000       0x71 ./emlib/em_csen.o
  .debug_frame   0x00000000       0xb0 ./emlib/em_csen.o
  .ARM.attributes
@@ -1812,7 +1759,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_dac.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_dac.o
  .debug_macro   0x00000000      0x32a ./emlib/em_dac.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_dac.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_dac.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_dac.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_dac.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_dac.o
@@ -1846,11 +1793,10 @@ Discarded input sections
  .debug_macro   0x00000000      0x304 ./emlib/em_dac.o
  .debug_macro   0x00000000      0x304 ./emlib/em_dac.o
  .debug_line    0x00000000      0x812 ./emlib/em_dac.o
- .debug_str     0x00000000   0x14e3d1 ./emlib/em_dac.o
+ .debug_str     0x00000000   0x14e3f4 ./emlib/em_dac.o
  .comment       0x00000000       0x71 ./emlib/em_dac.o
  .ARM.attributes
                 0x00000000       0x37 ./emlib/em_dac.o
- .group         0x00000000        0x8 ./emlib/em_dbg.o
  .group         0x00000000        0x8 ./emlib/em_dbg.o
  .group         0x00000000        0x8 ./emlib/em_dbg.o
  .group         0x00000000        0x8 ./emlib/em_dbg.o
@@ -1922,7 +1868,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x38 ./emlib/em_dbg.o
  .debug_ranges  0x00000000       0x28 ./emlib/em_dbg.o
- .debug_macro   0x00000000      0x2c0 ./emlib/em_dbg.o
+ .debug_macro   0x00000000      0x2b7 ./emlib/em_dbg.o
  .debug_macro   0x00000000      0x880 ./emlib/em_dbg.o
  .debug_macro   0x00000000       0x22 ./emlib/em_dbg.o
  .debug_macro   0x00000000      0x4b1 ./emlib/em_dbg.o
@@ -1939,7 +1885,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_dbg.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_dbg.o
  .debug_macro   0x00000000      0x32a ./emlib/em_dbg.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_dbg.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_dbg.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_dbg.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_dbg.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_dbg.o
@@ -1973,13 +1919,12 @@ Discarded input sections
  .debug_macro   0x00000000      0x304 ./emlib/em_dbg.o
  .debug_macro   0x00000000      0x304 ./emlib/em_dbg.o
  .debug_macro   0x00000000       0x10 ./emlib/em_dbg.o
- .debug_macro   0x00000000       0x10 ./emlib/em_dbg.o
- .debug_macro   0x00000000       0xe4 ./emlib/em_dbg.o
+ .debug_macro   0x00000000       0xea ./emlib/em_dbg.o
  .debug_macro   0x00000000      0x33e ./emlib/em_dbg.o
  .debug_macro   0x00000000       0x34 ./emlib/em_dbg.o
  .debug_macro   0x00000000       0x34 ./emlib/em_dbg.o
- .debug_line    0x00000000      0x9eb ./emlib/em_dbg.o
- .debug_str     0x00000000   0x150060 ./emlib/em_dbg.o
+ .debug_line    0x00000000      0x94f ./emlib/em_dbg.o
+ .debug_str     0x00000000   0x15006d ./emlib/em_dbg.o
  .comment       0x00000000       0x71 ./emlib/em_dbg.o
  .debug_frame   0x00000000       0xa4 ./emlib/em_dbg.o
  .ARM.attributes
@@ -2055,7 +2000,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_dma.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_dma.o
  .debug_macro   0x00000000      0x32a ./emlib/em_dma.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_dma.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_dma.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_dma.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_dma.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_dma.o
@@ -2089,7 +2034,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x304 ./emlib/em_dma.o
  .debug_macro   0x00000000      0x304 ./emlib/em_dma.o
  .debug_line    0x00000000      0x812 ./emlib/em_dma.o
- .debug_str     0x00000000   0x14e3d1 ./emlib/em_dma.o
+ .debug_str     0x00000000   0x14e3f4 ./emlib/em_dma.o
  .comment       0x00000000       0x71 ./emlib/em_dma.o
  .ARM.attributes
                 0x00000000       0x37 ./emlib/em_dma.o
@@ -2164,7 +2109,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_ebi.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_ebi.o
  .debug_macro   0x00000000      0x32a ./emlib/em_ebi.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_ebi.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_ebi.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_ebi.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_ebi.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_ebi.o
@@ -2198,11 +2143,10 @@ Discarded input sections
  .debug_macro   0x00000000      0x304 ./emlib/em_ebi.o
  .debug_macro   0x00000000      0x304 ./emlib/em_ebi.o
  .debug_line    0x00000000      0x812 ./emlib/em_ebi.o
- .debug_str     0x00000000   0x14e3d1 ./emlib/em_ebi.o
+ .debug_str     0x00000000   0x14e3f4 ./emlib/em_ebi.o
  .comment       0x00000000       0x71 ./emlib/em_ebi.o
  .ARM.attributes
                 0x00000000       0x37 ./emlib/em_ebi.o
- .group         0x00000000        0x8 ./emlib/em_emu.o
  .group         0x00000000        0x8 ./emlib/em_emu.o
  .group         0x00000000        0x8 ./emlib/em_emu.o
  .group         0x00000000        0x8 ./emlib/em_emu.o
@@ -2346,7 +2290,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_emu.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_emu.o
  .debug_macro   0x00000000      0x32a ./emlib/em_emu.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_emu.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_emu.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_emu.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_emu.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_emu.o
@@ -2380,10 +2324,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x304 ./emlib/em_emu.o
  .debug_macro   0x00000000      0x304 ./emlib/em_emu.o
  .debug_macro   0x00000000       0x22 ./emlib/em_emu.o
- .debug_macro   0x00000000       0x7a ./emlib/em_emu.o
  .debug_macro   0x00000000       0x10 ./emlib/em_emu.o
- .debug_macro   0x00000000       0x10 ./emlib/em_emu.o
- .debug_macro   0x00000000       0xe4 ./emlib/em_emu.o
+ .debug_macro   0x00000000       0xea ./emlib/em_emu.o
  .debug_macro   0x00000000      0x33e ./emlib/em_emu.o
  .debug_macro   0x00000000       0x69 ./emlib/em_emu.o
  .group         0x00000000        0x8 ./emlib/em_gpcrc.o
@@ -2469,7 +2411,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_gpcrc.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_gpcrc.o
  .debug_macro   0x00000000      0x32a ./emlib/em_gpcrc.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_gpcrc.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_gpcrc.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_gpcrc.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_gpcrc.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_gpcrc.o
@@ -2505,8 +2447,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 ./emlib/em_gpcrc.o
  .debug_macro   0x00000000       0x63 ./emlib/em_gpcrc.o
  .debug_macro   0x00000000       0x10 ./emlib/em_gpcrc.o
- .debug_line    0x00000000      0x908 ./emlib/em_gpcrc.o
- .debug_str     0x00000000   0x14e81e ./emlib/em_gpcrc.o
+ .debug_line    0x00000000      0x8be ./emlib/em_gpcrc.o
+ .debug_str     0x00000000   0x14e841 ./emlib/em_gpcrc.o
  .comment       0x00000000       0x71 ./emlib/em_gpcrc.o
  .debug_frame   0x00000000       0xa8 ./emlib/em_gpcrc.o
  .ARM.attributes
@@ -2594,7 +2536,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_gpio.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_gpio.o
  .debug_macro   0x00000000      0x32a ./emlib/em_gpio.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_gpio.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_gpio.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_gpio.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_gpio.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_gpio.o
@@ -2630,7 +2572,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 ./emlib/em_gpio.o
  .debug_macro   0x00000000       0x10 ./emlib/em_gpio.o
  .debug_macro   0x00000000       0xe4 ./emlib/em_gpio.o
- .group         0x00000000        0x8 ./emlib/em_i2c.o
  .group         0x00000000        0x8 ./emlib/em_i2c.o
  .group         0x00000000        0x8 ./emlib/em_i2c.o
  .group         0x00000000        0x8 ./emlib/em_i2c.o
@@ -2725,7 +2666,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x80 ./emlib/em_i2c.o
  .debug_ranges  0x00000000       0x70 ./emlib/em_i2c.o
- .debug_macro   0x00000000      0x2f3 ./emlib/em_i2c.o
+ .debug_macro   0x00000000      0x2ee ./emlib/em_i2c.o
  .debug_macro   0x00000000      0x880 ./emlib/em_i2c.o
  .debug_macro   0x00000000      0x4b1 ./emlib/em_i2c.o
  .debug_macro   0x00000000       0x22 ./emlib/em_i2c.o
@@ -2741,7 +2682,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_i2c.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_i2c.o
  .debug_macro   0x00000000      0x32a ./emlib/em_i2c.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_i2c.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_i2c.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_i2c.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_i2c.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_i2c.o
@@ -2777,14 +2718,13 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 ./emlib/em_i2c.o
  .debug_macro   0x00000000       0x3f ./emlib/em_i2c.o
  .debug_macro   0x00000000       0x10 ./emlib/em_i2c.o
- .debug_macro   0x00000000       0x10 ./emlib/em_i2c.o
- .debug_macro   0x00000000       0xe4 ./emlib/em_i2c.o
+ .debug_macro   0x00000000       0xea ./emlib/em_i2c.o
  .debug_macro   0x00000000      0x33e ./emlib/em_i2c.o
  .debug_macro   0x00000000       0x58 ./emlib/em_i2c.o
  .debug_macro   0x00000000       0x25 ./emlib/em_i2c.o
  .debug_macro   0x00000000       0xee ./emlib/em_i2c.o
- .debug_line    0x00000000      0xbf2 ./emlib/em_i2c.o
- .debug_str     0x00000000   0x150612 ./emlib/em_i2c.o
+ .debug_line    0x00000000      0xb62 ./emlib/em_i2c.o
+ .debug_str     0x00000000   0x15061f ./emlib/em_i2c.o
  .comment       0x00000000       0x71 ./emlib/em_i2c.o
  .debug_frame   0x00000000      0x1fc ./emlib/em_i2c.o
  .ARM.attributes
@@ -2863,7 +2803,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_iadc.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_iadc.o
  .debug_macro   0x00000000      0x32a ./emlib/em_iadc.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_iadc.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_iadc.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_iadc.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_iadc.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_iadc.o
@@ -2900,11 +2840,10 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./emlib/em_iadc.o
  .debug_macro   0x00000000       0xe4 ./emlib/em_iadc.o
  .debug_line    0x00000000      0x849 ./emlib/em_iadc.o
- .debug_str     0x00000000   0x14ebe1 ./emlib/em_iadc.o
+ .debug_str     0x00000000   0x14ec04 ./emlib/em_iadc.o
  .comment       0x00000000       0x71 ./emlib/em_iadc.o
  .ARM.attributes
                 0x00000000       0x37 ./emlib/em_iadc.o
- .group         0x00000000        0x8 ./emlib/em_idac.o
  .group         0x00000000        0x8 ./emlib/em_idac.o
  .group         0x00000000        0x8 ./emlib/em_idac.o
  .group         0x00000000        0x8 ./emlib/em_idac.o
@@ -2983,7 +2922,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x58 ./emlib/em_idac.o
  .debug_ranges  0x00000000       0x48 ./emlib/em_idac.o
- .debug_macro   0x00000000      0x29f ./emlib/em_idac.o
+ .debug_macro   0x00000000      0x29a ./emlib/em_idac.o
  .debug_macro   0x00000000      0x880 ./emlib/em_idac.o
  .debug_macro   0x00000000      0x4b1 ./emlib/em_idac.o
  .debug_macro   0x00000000       0x22 ./emlib/em_idac.o
@@ -2999,7 +2938,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_idac.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_idac.o
  .debug_macro   0x00000000      0x32a ./emlib/em_idac.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_idac.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_idac.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_idac.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_idac.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_idac.o
@@ -3035,11 +2974,10 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 ./emlib/em_idac.o
  .debug_macro   0x00000000       0x11 ./emlib/em_idac.o
  .debug_macro   0x00000000       0x10 ./emlib/em_idac.o
- .debug_macro   0x00000000       0x10 ./emlib/em_idac.o
- .debug_macro   0x00000000       0xe4 ./emlib/em_idac.o
+ .debug_macro   0x00000000       0xea ./emlib/em_idac.o
  .debug_macro   0x00000000      0x33e ./emlib/em_idac.o
- .debug_line    0x00000000      0x9be ./emlib/em_idac.o
- .debug_str     0x00000000   0x150223 ./emlib/em_idac.o
+ .debug_line    0x00000000      0x92e ./emlib/em_idac.o
+ .debug_str     0x00000000   0x150230 ./emlib/em_idac.o
  .comment       0x00000000       0x71 ./emlib/em_idac.o
  .debug_frame   0x00000000      0x144 ./emlib/em_idac.o
  .ARM.attributes
@@ -3117,7 +3055,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_int.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_int.o
  .debug_macro   0x00000000      0x32a ./emlib/em_int.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_int.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_int.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_int.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_int.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_int.o
@@ -3151,7 +3089,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x304 ./emlib/em_int.o
  .debug_macro   0x00000000      0x304 ./emlib/em_int.o
  .debug_line    0x00000000      0x812 ./emlib/em_int.o
- .debug_str     0x00000000   0x14e3f1 ./emlib/em_int.o
+ .debug_str     0x00000000   0x14e414 ./emlib/em_int.o
  .comment       0x00000000       0x71 ./emlib/em_int.o
  .ARM.attributes
                 0x00000000       0x37 ./emlib/em_int.o
@@ -3226,7 +3164,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_lcd.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_lcd.o
  .debug_macro   0x00000000      0x32a ./emlib/em_lcd.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_lcd.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_lcd.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_lcd.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_lcd.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_lcd.o
@@ -3260,11 +3198,10 @@ Discarded input sections
  .debug_macro   0x00000000      0x304 ./emlib/em_lcd.o
  .debug_macro   0x00000000      0x304 ./emlib/em_lcd.o
  .debug_line    0x00000000      0x812 ./emlib/em_lcd.o
- .debug_str     0x00000000   0x14e3d1 ./emlib/em_lcd.o
+ .debug_str     0x00000000   0x14e3f4 ./emlib/em_lcd.o
  .comment       0x00000000       0x71 ./emlib/em_lcd.o
  .ARM.attributes
                 0x00000000       0x37 ./emlib/em_lcd.o
- .group         0x00000000        0x8 ./emlib/em_ldma.o
  .group         0x00000000        0x8 ./emlib/em_ldma.o
  .group         0x00000000        0x8 ./emlib/em_ldma.o
  .group         0x00000000        0x8 ./emlib/em_ldma.o
@@ -3356,7 +3293,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x80 ./emlib/em_ldma.o
  .debug_ranges  0x00000000       0x70 ./emlib/em_ldma.o
- .debug_macro   0x00000000      0x2c0 ./emlib/em_ldma.o
+ .debug_macro   0x00000000      0x2bb ./emlib/em_ldma.o
  .debug_macro   0x00000000      0x880 ./emlib/em_ldma.o
  .debug_macro   0x00000000      0x4b1 ./emlib/em_ldma.o
  .debug_macro   0x00000000       0x22 ./emlib/em_ldma.o
@@ -3372,7 +3309,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_ldma.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_ldma.o
  .debug_macro   0x00000000      0x32a ./emlib/em_ldma.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_ldma.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_ldma.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_ldma.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_ldma.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_ldma.o
@@ -3409,18 +3346,16 @@ Discarded input sections
  .debug_macro   0x00000000       0xba ./emlib/em_ldma.o
  .debug_macro   0x00000000      0x166 ./emlib/em_ldma.o
  .debug_macro   0x00000000       0x10 ./emlib/em_ldma.o
- .debug_macro   0x00000000       0x10 ./emlib/em_ldma.o
- .debug_macro   0x00000000       0xe4 ./emlib/em_ldma.o
+ .debug_macro   0x00000000       0xea ./emlib/em_ldma.o
  .debug_macro   0x00000000      0x33e ./emlib/em_ldma.o
  .debug_macro   0x00000000       0x69 ./emlib/em_ldma.o
  .debug_macro   0x00000000       0xba ./emlib/em_ldma.o
- .debug_line    0x00000000      0xa8a ./emlib/em_ldma.o
- .debug_str     0x00000000   0x153bd8 ./emlib/em_ldma.o
+ .debug_line    0x00000000      0x9fa ./emlib/em_ldma.o
+ .debug_str     0x00000000   0x153be5 ./emlib/em_ldma.o
  .comment       0x00000000       0x71 ./emlib/em_ldma.o
  .debug_frame   0x00000000      0x1f4 ./emlib/em_ldma.o
  .ARM.attributes
                 0x00000000       0x37 ./emlib/em_ldma.o
- .group         0x00000000        0x8 ./emlib/em_lesense.o
  .group         0x00000000        0x8 ./emlib/em_lesense.o
  .group         0x00000000        0x8 ./emlib/em_lesense.o
  .group         0x00000000        0x8 ./emlib/em_lesense.o
@@ -3537,7 +3472,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xf0 ./emlib/em_lesense.o
  .debug_ranges  0x00000000       0xe0 ./emlib/em_lesense.o
- .debug_macro   0x00000000      0x2ab ./emlib/em_lesense.o
+ .debug_macro   0x00000000      0x2a6 ./emlib/em_lesense.o
  .debug_macro   0x00000000      0x880 ./emlib/em_lesense.o
  .debug_macro   0x00000000      0x4b1 ./emlib/em_lesense.o
  .debug_macro   0x00000000       0x22 ./emlib/em_lesense.o
@@ -3553,7 +3488,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_lesense.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_lesense.o
  .debug_macro   0x00000000      0x32a ./emlib/em_lesense.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_lesense.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_lesense.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_lesense.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_lesense.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_lesense.o
@@ -3589,16 +3524,14 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 ./emlib/em_lesense.o
  .debug_macro   0x00000000       0x5d ./emlib/em_lesense.o
  .debug_macro   0x00000000       0x10 ./emlib/em_lesense.o
- .debug_macro   0x00000000       0x10 ./emlib/em_lesense.o
- .debug_macro   0x00000000       0xe4 ./emlib/em_lesense.o
+ .debug_macro   0x00000000       0xea ./emlib/em_lesense.o
  .debug_macro   0x00000000      0x33e ./emlib/em_lesense.o
- .debug_line    0x00000000      0xcdc ./emlib/em_lesense.o
- .debug_str     0x00000000   0x151e13 ./emlib/em_lesense.o
+ .debug_line    0x00000000      0xc4c ./emlib/em_lesense.o
+ .debug_str     0x00000000   0x151e20 ./emlib/em_lesense.o
  .comment       0x00000000       0x71 ./emlib/em_lesense.o
  .debug_frame   0x00000000      0x3f8 ./emlib/em_lesense.o
  .ARM.attributes
                 0x00000000       0x37 ./emlib/em_lesense.o
- .group         0x00000000        0x8 ./emlib/em_letimer.o
  .group         0x00000000        0x8 ./emlib/em_letimer.o
  .group         0x00000000        0x8 ./emlib/em_letimer.o
  .group         0x00000000        0x8 ./emlib/em_letimer.o
@@ -3680,7 +3613,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x68 ./emlib/em_letimer.o
  .debug_ranges  0x00000000       0x58 ./emlib/em_letimer.o
- .debug_macro   0x00000000      0x2b2 ./emlib/em_letimer.o
+ .debug_macro   0x00000000      0x2a9 ./emlib/em_letimer.o
  .debug_macro   0x00000000      0x880 ./emlib/em_letimer.o
  .debug_macro   0x00000000       0x22 ./emlib/em_letimer.o
  .debug_macro   0x00000000      0x4b1 ./emlib/em_letimer.o
@@ -3697,7 +3630,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_letimer.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_letimer.o
  .debug_macro   0x00000000      0x32a ./emlib/em_letimer.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_letimer.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_letimer.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_letimer.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_letimer.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_letimer.o
@@ -3731,16 +3664,14 @@ Discarded input sections
  .debug_macro   0x00000000      0x304 ./emlib/em_letimer.o
  .debug_macro   0x00000000      0x304 ./emlib/em_letimer.o
  .debug_macro   0x00000000       0x10 ./emlib/em_letimer.o
- .debug_macro   0x00000000       0x10 ./emlib/em_letimer.o
- .debug_macro   0x00000000       0xe4 ./emlib/em_letimer.o
+ .debug_macro   0x00000000       0xea ./emlib/em_letimer.o
  .debug_macro   0x00000000      0x33e ./emlib/em_letimer.o
- .debug_line    0x00000000      0xa50 ./emlib/em_letimer.o
- .debug_str     0x00000000   0x14fc99 ./emlib/em_letimer.o
+ .debug_line    0x00000000      0x9c0 ./emlib/em_letimer.o
+ .debug_str     0x00000000   0x14fca6 ./emlib/em_letimer.o
  .comment       0x00000000       0x71 ./emlib/em_letimer.o
  .debug_frame   0x00000000      0x198 ./emlib/em_letimer.o
  .ARM.attributes
                 0x00000000       0x37 ./emlib/em_letimer.o
- .group         0x00000000        0x8 ./emlib/em_leuart.o
  .group         0x00000000        0x8 ./emlib/em_leuart.o
  .group         0x00000000        0x8 ./emlib/em_leuart.o
  .group         0x00000000        0x8 ./emlib/em_leuart.o
@@ -3830,7 +3761,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x88 ./emlib/em_leuart.o
  .debug_ranges  0x00000000       0x78 ./emlib/em_leuart.o
- .debug_macro   0x00000000      0x2a6 ./emlib/em_leuart.o
+ .debug_macro   0x00000000      0x29d ./emlib/em_leuart.o
  .debug_macro   0x00000000      0x880 ./emlib/em_leuart.o
  .debug_macro   0x00000000      0x4b1 ./emlib/em_leuart.o
  .debug_macro   0x00000000       0x22 ./emlib/em_leuart.o
@@ -3846,7 +3777,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_leuart.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_leuart.o
  .debug_macro   0x00000000      0x32a ./emlib/em_leuart.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_leuart.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_leuart.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_leuart.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_leuart.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_leuart.o
@@ -3881,11 +3812,10 @@ Discarded input sections
  .debug_macro   0x00000000      0x304 ./emlib/em_leuart.o
  .debug_macro   0x00000000       0x22 ./emlib/em_leuart.o
  .debug_macro   0x00000000       0x10 ./emlib/em_leuart.o
- .debug_macro   0x00000000       0x10 ./emlib/em_leuart.o
- .debug_macro   0x00000000       0xe4 ./emlib/em_leuart.o
+ .debug_macro   0x00000000       0xea ./emlib/em_leuart.o
  .debug_macro   0x00000000      0x33e ./emlib/em_leuart.o
- .debug_line    0x00000000      0xa5c ./emlib/em_leuart.o
- .debug_str     0x00000000   0x14ffb9 ./emlib/em_leuart.o
+ .debug_line    0x00000000      0x9cc ./emlib/em_leuart.o
+ .debug_str     0x00000000   0x14ffc6 ./emlib/em_leuart.o
  .comment       0x00000000       0x71 ./emlib/em_leuart.o
  .debug_frame   0x00000000      0x21c ./emlib/em_leuart.o
  .ARM.attributes
@@ -3968,7 +3898,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_mpu.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_mpu.o
  .debug_macro   0x00000000      0x32a ./emlib/em_mpu.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_mpu.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_mpu.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_mpu.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_mpu.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_mpu.o
@@ -4004,8 +3934,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./emlib/em_mpu.o
  .debug_macro   0x00000000       0x22 ./emlib/em_mpu.o
  .debug_macro   0x00000000       0x25 ./emlib/em_mpu.o
- .debug_line    0x00000000      0x8ac ./emlib/em_mpu.o
- .debug_str     0x00000000   0x14e997 ./emlib/em_mpu.o
+ .debug_line    0x00000000      0x853 ./emlib/em_mpu.o
+ .debug_str     0x00000000   0x14e9ba ./emlib/em_mpu.o
  .comment       0x00000000       0x71 ./emlib/em_mpu.o
  .debug_frame   0x00000000       0x38 ./emlib/em_mpu.o
  .ARM.attributes
@@ -4094,7 +4024,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_msc.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_msc.o
  .debug_macro   0x00000000      0x32a ./emlib/em_msc.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_msc.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_msc.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_msc.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_msc.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_msc.o
@@ -4131,8 +4061,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x34 ./emlib/em_msc.o
  .debug_macro   0x00000000       0x34 ./emlib/em_msc.o
  .debug_macro   0x00000000       0x10 ./emlib/em_msc.o
- .debug_line    0x00000000      0xaa5 ./emlib/em_msc.o
- .debug_str     0x00000000   0x14ec46 ./emlib/em_msc.o
+ .debug_line    0x00000000      0xa5b ./emlib/em_msc.o
+ .debug_str     0x00000000   0x14ec69 ./emlib/em_msc.o
  .comment       0x00000000       0x71 ./emlib/em_msc.o
  .debug_frame   0x00000000      0x1a0 ./emlib/em_msc.o
  .ARM.attributes
@@ -4218,7 +4148,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_opamp.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_opamp.o
  .debug_macro   0x00000000      0x32a ./emlib/em_opamp.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_opamp.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_opamp.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_opamp.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_opamp.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_opamp.o
@@ -4255,13 +4185,12 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./emlib/em_opamp.o
  .debug_macro   0x00000000       0x18 ./emlib/em_opamp.o
  .debug_macro   0x00000000       0x8f ./emlib/em_opamp.o
- .debug_line    0x00000000      0xb21 ./emlib/em_opamp.o
- .debug_str     0x00000000   0x151292 ./emlib/em_opamp.o
+ .debug_line    0x00000000      0xac8 ./emlib/em_opamp.o
+ .debug_str     0x00000000   0x1512b5 ./emlib/em_opamp.o
  .comment       0x00000000       0x71 ./emlib/em_opamp.o
  .debug_frame   0x00000000       0x60 ./emlib/em_opamp.o
  .ARM.attributes
                 0x00000000       0x37 ./emlib/em_opamp.o
- .group         0x00000000        0x8 ./emlib/em_pcnt.o
  .group         0x00000000        0x8 ./emlib/em_pcnt.o
  .group         0x00000000        0x8 ./emlib/em_pcnt.o
  .group         0x00000000        0x8 ./emlib/em_pcnt.o
@@ -4352,7 +4281,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x88 ./emlib/em_pcnt.o
  .debug_ranges  0x00000000       0x78 ./emlib/em_pcnt.o
- .debug_macro   0x00000000      0x2a5 ./emlib/em_pcnt.o
+ .debug_macro   0x00000000      0x2a0 ./emlib/em_pcnt.o
  .debug_macro   0x00000000      0x880 ./emlib/em_pcnt.o
  .debug_macro   0x00000000      0x4b1 ./emlib/em_pcnt.o
  .debug_macro   0x00000000       0x22 ./emlib/em_pcnt.o
@@ -4368,7 +4297,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_pcnt.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_pcnt.o
  .debug_macro   0x00000000      0x32a ./emlib/em_pcnt.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_pcnt.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_pcnt.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_pcnt.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_pcnt.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_pcnt.o
@@ -4404,11 +4333,10 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 ./emlib/em_pcnt.o
  .debug_macro   0x00000000       0x2b ./emlib/em_pcnt.o
  .debug_macro   0x00000000       0x10 ./emlib/em_pcnt.o
- .debug_macro   0x00000000       0x10 ./emlib/em_pcnt.o
- .debug_macro   0x00000000       0xe4 ./emlib/em_pcnt.o
+ .debug_macro   0x00000000       0xea ./emlib/em_pcnt.o
  .debug_macro   0x00000000      0x33e ./emlib/em_pcnt.o
- .debug_line    0x00000000      0xb4d ./emlib/em_pcnt.o
- .debug_str     0x00000000   0x14ffce ./emlib/em_pcnt.o
+ .debug_line    0x00000000      0xabd ./emlib/em_pcnt.o
+ .debug_str     0x00000000   0x14ffdb ./emlib/em_pcnt.o
  .comment       0x00000000       0x71 ./emlib/em_pcnt.o
  .debug_frame   0x00000000      0x218 ./emlib/em_pcnt.o
  .ARM.attributes
@@ -4485,7 +4413,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_pdm.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_pdm.o
  .debug_macro   0x00000000      0x32a ./emlib/em_pdm.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_pdm.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_pdm.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_pdm.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_pdm.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_pdm.o
@@ -4520,7 +4448,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x304 ./emlib/em_pdm.o
  .debug_macro   0x00000000       0x22 ./emlib/em_pdm.o
  .debug_line    0x00000000      0x81f ./emlib/em_pdm.o
- .debug_str     0x00000000   0x14e417 ./emlib/em_pdm.o
+ .debug_str     0x00000000   0x14e43a ./emlib/em_pdm.o
  .comment       0x00000000       0x71 ./emlib/em_pdm.o
  .ARM.attributes
                 0x00000000       0x37 ./emlib/em_pdm.o
@@ -4616,7 +4544,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_prs.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_prs.o
  .debug_macro   0x00000000      0x32a ./emlib/em_prs.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_prs.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_prs.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_prs.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_prs.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_prs.o
@@ -4654,8 +4582,8 @@ Discarded input sections
  .debug_macro   0x00000000       0xe4 ./emlib/em_prs.o
  .debug_macro   0x00000000      0x166 ./emlib/em_prs.o
  .debug_macro   0x00000000       0x28 ./emlib/em_prs.o
- .debug_line    0x00000000      0x965 ./emlib/em_prs.o
- .debug_str     0x00000000   0x14f561 ./emlib/em_prs.o
+ .debug_line    0x00000000      0x90c ./emlib/em_prs.o
+ .debug_str     0x00000000   0x14f584 ./emlib/em_prs.o
  .comment       0x00000000       0x71 ./emlib/em_prs.o
  .debug_frame   0x00000000      0x120 ./emlib/em_prs.o
  .ARM.attributes
@@ -4731,7 +4659,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_qspi.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_qspi.o
  .debug_macro   0x00000000      0x32a ./emlib/em_qspi.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_qspi.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_qspi.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_qspi.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_qspi.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_qspi.o
@@ -4765,7 +4693,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x304 ./emlib/em_qspi.o
  .debug_macro   0x00000000      0x304 ./emlib/em_qspi.o
  .debug_line    0x00000000      0x814 ./emlib/em_qspi.o
- .debug_str     0x00000000   0x14e3d3 ./emlib/em_qspi.o
+ .debug_str     0x00000000   0x14e3f6 ./emlib/em_qspi.o
  .comment       0x00000000       0x71 ./emlib/em_qspi.o
  .ARM.attributes
                 0x00000000       0x37 ./emlib/em_qspi.o
@@ -4855,7 +4783,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_rmu.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_rmu.o
  .debug_macro   0x00000000      0x32a ./emlib/em_rmu.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_rmu.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_rmu.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_rmu.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_rmu.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_rmu.o
@@ -4892,8 +4820,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 ./emlib/em_rmu.o
  .debug_macro   0x00000000       0x69 ./emlib/em_rmu.o
  .debug_macro   0x00000000       0x7a ./emlib/em_rmu.o
- .debug_line    0x00000000      0x935 ./emlib/em_rmu.o
- .debug_str     0x00000000   0x14ee4c ./emlib/em_rmu.o
+ .debug_line    0x00000000      0x8df ./emlib/em_rmu.o
+ .debug_str     0x00000000   0x14ee6f ./emlib/em_rmu.o
  .comment       0x00000000       0x71 ./emlib/em_rmu.o
  .debug_frame   0x00000000       0xa4 ./emlib/em_rmu.o
  .ARM.attributes
@@ -4969,7 +4897,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_rtc.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_rtc.o
  .debug_macro   0x00000000      0x32a ./emlib/em_rtc.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_rtc.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_rtc.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_rtc.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_rtc.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_rtc.o
@@ -5003,7 +4931,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x304 ./emlib/em_rtc.o
  .debug_macro   0x00000000      0x304 ./emlib/em_rtc.o
  .debug_line    0x00000000      0x812 ./emlib/em_rtc.o
- .debug_str     0x00000000   0x14e3d1 ./emlib/em_rtc.o
+ .debug_str     0x00000000   0x14e3f4 ./emlib/em_rtc.o
  .comment       0x00000000       0x71 ./emlib/em_rtc.o
  .ARM.attributes
                 0x00000000       0x37 ./emlib/em_rtc.o
@@ -5097,7 +5025,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_rtcc.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_rtcc.o
  .debug_macro   0x00000000      0x32a ./emlib/em_rtcc.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_rtcc.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_rtcc.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_rtcc.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_rtcc.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_rtcc.o
@@ -5133,8 +5061,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 ./emlib/em_rtcc.o
  .debug_macro   0x00000000       0x10 ./emlib/em_rtcc.o
  .debug_macro   0x00000000       0x87 ./emlib/em_rtcc.o
- .debug_line    0x00000000      0x9f1 ./emlib/em_rtcc.o
- .debug_str     0x00000000   0x14ef44 ./emlib/em_rtcc.o
+ .debug_line    0x00000000      0x9a7 ./emlib/em_rtcc.o
+ .debug_str     0x00000000   0x14ef67 ./emlib/em_rtcc.o
  .comment       0x00000000       0x71 ./emlib/em_rtcc.o
  .debug_frame   0x00000000      0x118 ./emlib/em_rtcc.o
  .ARM.attributes
@@ -5210,7 +5138,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_se.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_se.o
  .debug_macro   0x00000000      0x32a ./emlib/em_se.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_se.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_se.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_se.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_se.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_se.o
@@ -5244,7 +5172,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x304 ./emlib/em_se.o
  .debug_macro   0x00000000      0x304 ./emlib/em_se.o
  .debug_line    0x00000000      0x7ab ./emlib/em_se.o
- .debug_str     0x00000000   0x14e3c6 ./emlib/em_se.o
+ .debug_str     0x00000000   0x14e3e9 ./emlib/em_se.o
  .comment       0x00000000       0x71 ./emlib/em_se.o
  .ARM.attributes
                 0x00000000       0x37 ./emlib/em_se.o
@@ -5329,7 +5257,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_system.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_system.o
  .debug_macro   0x00000000      0x32a ./emlib/em_system.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_system.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_system.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_system.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_system.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_system.o
@@ -5364,8 +5292,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x304 ./emlib/em_system.o
  .debug_macro   0x00000000       0x10 ./emlib/em_system.o
  .debug_macro   0x00000000      0x166 ./emlib/em_system.o
- .debug_line    0x00000000      0x8cf ./emlib/em_system.o
- .debug_str     0x00000000   0x14e830 ./emlib/em_system.o
+ .debug_line    0x00000000      0x885 ./emlib/em_system.o
+ .debug_str     0x00000000   0x14e853 ./emlib/em_system.o
  .comment       0x00000000       0x71 ./emlib/em_system.o
  .debug_frame   0x00000000       0x60 ./emlib/em_system.o
  .ARM.attributes
@@ -5451,7 +5379,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_timer.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_timer.o
  .debug_macro   0x00000000      0x32a ./emlib/em_timer.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_timer.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_timer.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_timer.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_timer.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_timer.o
@@ -5486,7 +5414,6 @@ Discarded input sections
  .debug_macro   0x00000000      0x304 ./emlib/em_timer.o
  .debug_macro   0x00000000       0x22 ./emlib/em_timer.o
  .debug_macro   0x00000000       0x10 ./emlib/em_timer.o
- .group         0x00000000        0x8 ./emlib/em_usart.o
  .group         0x00000000        0x8 ./emlib/em_usart.o
  .group         0x00000000        0x8 ./emlib/em_usart.o
  .group         0x00000000        0x8 ./emlib/em_usart.o
@@ -5595,7 +5522,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xd0 ./emlib/em_usart.o
  .debug_ranges  0x00000000       0xc0 ./emlib/em_usart.o
- .debug_macro   0x00000000      0x2c6 ./emlib/em_usart.o
+ .debug_macro   0x00000000      0x2c5 ./emlib/em_usart.o
  .debug_macro   0x00000000      0x880 ./emlib/em_usart.o
  .debug_macro   0x00000000      0x4b1 ./emlib/em_usart.o
  .debug_macro   0x00000000       0x22 ./emlib/em_usart.o
@@ -5611,7 +5538,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_usart.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_usart.o
  .debug_macro   0x00000000      0x32a ./emlib/em_usart.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_usart.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_usart.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_usart.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_usart.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_usart.o
@@ -5647,11 +5574,10 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 ./emlib/em_usart.o
  .debug_macro   0x00000000       0xeb ./emlib/em_usart.o
  .debug_macro   0x00000000       0x10 ./emlib/em_usart.o
- .debug_macro   0x00000000       0x10 ./emlib/em_usart.o
- .debug_macro   0x00000000       0xe4 ./emlib/em_usart.o
+ .debug_macro   0x00000000       0xea ./emlib/em_usart.o
  .debug_macro   0x00000000      0x33e ./emlib/em_usart.o
- .debug_line    0x00000000      0xcb5 ./emlib/em_usart.o
- .debug_str     0x00000000   0x150b34 ./emlib/em_usart.o
+ .debug_line    0x00000000      0xc25 ./emlib/em_usart.o
+ .debug_str     0x00000000   0x150b41 ./emlib/em_usart.o
  .comment       0x00000000       0x71 ./emlib/em_usart.o
  .debug_frame   0x00000000      0x384 ./emlib/em_usart.o
  .ARM.attributes
@@ -5727,7 +5653,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_vcmp.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_vcmp.o
  .debug_macro   0x00000000      0x32a ./emlib/em_vcmp.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_vcmp.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_vcmp.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_vcmp.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_vcmp.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_vcmp.o
@@ -5761,11 +5687,10 @@ Discarded input sections
  .debug_macro   0x00000000      0x304 ./emlib/em_vcmp.o
  .debug_macro   0x00000000      0x304 ./emlib/em_vcmp.o
  .debug_line    0x00000000      0x814 ./emlib/em_vcmp.o
- .debug_str     0x00000000   0x14e3d3 ./emlib/em_vcmp.o
+ .debug_str     0x00000000   0x14e3f6 ./emlib/em_vcmp.o
  .comment       0x00000000       0x71 ./emlib/em_vcmp.o
  .ARM.attributes
                 0x00000000       0x37 ./emlib/em_vcmp.o
- .group         0x00000000        0x8 ./emlib/em_vdac.o
  .group         0x00000000        0x8 ./emlib/em_vdac.o
  .group         0x00000000        0x8 ./emlib/em_vdac.o
  .group         0x00000000        0x8 ./emlib/em_vdac.o
@@ -5844,7 +5769,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x58 ./emlib/em_vdac.o
  .debug_ranges  0x00000000       0x48 ./emlib/em_vdac.o
- .debug_macro   0x00000000      0x2b5 ./emlib/em_vdac.o
+ .debug_macro   0x00000000      0x2a4 ./emlib/em_vdac.o
  .debug_macro   0x00000000      0x880 ./emlib/em_vdac.o
  .debug_macro   0x00000000      0x4b1 ./emlib/em_vdac.o
  .debug_macro   0x00000000       0x22 ./emlib/em_vdac.o
@@ -5860,7 +5785,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_vdac.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_vdac.o
  .debug_macro   0x00000000      0x32a ./emlib/em_vdac.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_vdac.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_vdac.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_vdac.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_vdac.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_vdac.o
@@ -5896,11 +5821,10 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./emlib/em_vdac.o
  .debug_macro   0x00000000       0x22 ./emlib/em_vdac.o
  .debug_macro   0x00000000       0x18 ./emlib/em_vdac.o
- .debug_macro   0x00000000       0x10 ./emlib/em_vdac.o
- .debug_macro   0x00000000       0xe4 ./emlib/em_vdac.o
+ .debug_macro   0x00000000       0xea ./emlib/em_vdac.o
  .debug_macro   0x00000000      0x33e ./emlib/em_vdac.o
- .debug_line    0x00000000      0xa24 ./emlib/em_vdac.o
- .debug_str     0x00000000   0x150495 ./emlib/em_vdac.o
+ .debug_line    0x00000000      0x985 ./emlib/em_vdac.o
+ .debug_str     0x00000000   0x1504a2 ./emlib/em_vdac.o
  .comment       0x00000000       0x71 ./emlib/em_vdac.o
  .debug_frame   0x00000000      0x148 ./emlib/em_vdac.o
  .ARM.attributes
@@ -5996,7 +5920,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./emlib/em_wdog.o
  .debug_macro   0x00000000     0x2276 ./emlib/em_wdog.o
  .debug_macro   0x00000000      0x32a ./emlib/em_wdog.o
- .debug_macro   0x00000000     0x3112 ./emlib/em_wdog.o
+ .debug_macro   0x00000000     0x3119 ./emlib/em_wdog.o
  .debug_macro   0x00000000     0x1bbb ./emlib/em_wdog.o
  .debug_macro   0x00000000     0x2675 ./emlib/em_wdog.o
  .debug_macro   0x00000000     0x1b1a ./emlib/em_wdog.o
@@ -6033,8 +5957,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x11 ./emlib/em_wdog.o
  .debug_macro   0x00000000       0x69 ./emlib/em_wdog.o
  .debug_macro   0x00000000       0xba ./emlib/em_wdog.o
- .debug_line    0x00000000      0xa1b ./emlib/em_wdog.o
- .debug_str     0x00000000   0x14f122 ./emlib/em_wdog.o
+ .debug_line    0x00000000      0x9d1 ./emlib/em_wdog.o
+ .debug_str     0x00000000   0x14f145 ./emlib/em_wdog.o
  .comment       0x00000000       0x71 ./emlib/em_wdog.o
  .debug_frame   0x00000000      0x120 ./emlib/em_wdog.o
  .ARM.attributes
@@ -6093,18 +6017,11 @@ Discarded input sections
  .group         0x00000000        0x8 ./src/adc.o
  .group         0x00000000        0x8 ./src/adc.o
  .group         0x00000000        0x8 ./src/adc.o
+ .group         0x00000000        0x8 ./src/adc.o
+ .group         0x00000000        0x8 ./src/adc.o
  .text          0x00000000        0x0 ./src/adc.o
  .data          0x00000000        0x0 ./src/adc.o
  .bss           0x00000000        0x0 ./src/adc.o
- .text.adc_init
-                0x00000000       0x2c ./src/adc.o
- .debug_info    0x00000000      0x2f8 ./src/adc.o
- .debug_abbrev  0x00000000       0xb0 ./src/adc.o
- .debug_loc     0x00000000       0x44 ./src/adc.o
- .debug_aranges
-                0x00000000       0x20 ./src/adc.o
- .debug_ranges  0x00000000       0x10 ./src/adc.o
- .debug_macro   0x00000000      0x2bd ./src/adc.o
  .debug_macro   0x00000000      0x880 ./src/adc.o
  .debug_macro   0x00000000      0x4b1 ./src/adc.o
  .debug_macro   0x00000000       0x22 ./src/adc.o
@@ -6120,7 +6037,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./src/adc.o
  .debug_macro   0x00000000     0x2276 ./src/adc.o
  .debug_macro   0x00000000      0x32a ./src/adc.o
- .debug_macro   0x00000000     0x3112 ./src/adc.o
+ .debug_macro   0x00000000     0x3119 ./src/adc.o
  .debug_macro   0x00000000     0x1bbb ./src/adc.o
  .debug_macro   0x00000000     0x2675 ./src/adc.o
  .debug_macro   0x00000000     0x1b1a ./src/adc.o
@@ -6158,14 +6075,6 @@ Discarded input sections
  .debug_macro   0x00000000       0xe4 ./src/adc.o
  .debug_macro   0x00000000       0x69 ./src/adc.o
  .debug_macro   0x00000000       0xba ./src/adc.o
- .debug_macro   0x00000000       0x57 ./src/adc.o
- .debug_line    0x00000000      0x896 ./src/adc.o
- .debug_str     0x00000000   0x14f97e ./src/adc.o
- .comment       0x00000000       0x71 ./src/adc.o
- .debug_frame   0x00000000       0x30 ./src/adc.o
- .ARM.attributes
-                0x00000000       0x37 ./src/adc.o
- .group         0x00000000        0x8 ./src/cmu.o
  .group         0x00000000        0x8 ./src/cmu.o
  .group         0x00000000        0x8 ./src/cmu.o
  .group         0x00000000        0x8 ./src/cmu.o
@@ -6228,7 +6137,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 ./src/cmu.o
  .debug_macro   0x00000000      0x1df ./src/cmu.o
  .debug_macro   0x00000000       0x22 ./src/cmu.o
- .debug_macro   0x00000000       0x10 ./src/cmu.o
  .debug_macro   0x00000000      0x4b1 ./src/cmu.o
  .debug_macro   0x00000000       0x1c ./src/cmu.o
  .debug_macro   0x00000000       0x22 ./src/cmu.o
@@ -6238,7 +6146,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./src/cmu.o
  .debug_macro   0x00000000     0x2276 ./src/cmu.o
  .debug_macro   0x00000000      0x32a ./src/cmu.o
- .debug_macro   0x00000000     0x3112 ./src/cmu.o
+ .debug_macro   0x00000000     0x3119 ./src/cmu.o
  .debug_macro   0x00000000     0x1bbb ./src/cmu.o
  .debug_macro   0x00000000     0x2675 ./src/cmu.o
  .debug_macro   0x00000000     0x1b1a ./src/cmu.o
@@ -6272,7 +6180,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x304 ./src/cmu.o
  .debug_macro   0x00000000      0x304 ./src/cmu.o
  .debug_macro   0x00000000       0x10 ./src/cmu.o
- .debug_macro   0x00000000       0xe4 ./src/cmu.o
+ .debug_macro   0x00000000       0xea ./src/cmu.o
  .debug_macro   0x00000000      0x33e ./src/cmu.o
  .group         0x00000000        0x8 ./src/gpio.o
  .text          0x00000000        0x0 ./src/gpio.o
@@ -6289,6 +6197,7 @@ Discarded input sections
  .comment       0x00000000       0x71 ./src/gpio.o
  .ARM.attributes
                 0x00000000       0x37 ./src/gpio.o
+ .group         0x00000000        0x8 ./src/main.o
  .group         0x00000000        0x8 ./src/main.o
  .group         0x00000000        0x8 ./src/main.o
  .group         0x00000000        0x8 ./src/main.o
@@ -6371,7 +6280,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./src/main.o
  .debug_macro   0x00000000     0x2276 ./src/main.o
  .debug_macro   0x00000000      0x32a ./src/main.o
- .debug_macro   0x00000000     0x3112 ./src/main.o
+ .debug_macro   0x00000000     0x3119 ./src/main.o
  .debug_macro   0x00000000     0x1bbb ./src/main.o
  .debug_macro   0x00000000     0x2675 ./src/main.o
  .debug_macro   0x00000000     0x1b1a ./src/main.o
@@ -6408,13 +6317,14 @@ Discarded input sections
  .debug_macro   0x00000000       0xe4 ./src/main.o
  .debug_macro   0x00000000       0x69 ./src/main.o
  .debug_macro   0x00000000       0xba ./src/main.o
- .debug_macro   0x00000000       0x10 ./src/main.o
- .debug_macro   0x00000000      0x33e ./src/main.o
- .debug_macro   0x00000000      0x1c0 ./src/main.o
+ .debug_macro   0x00000000      0x344 ./src/main.o
+ .debug_macro   0x00000000       0x80 ./src/main.o
  .debug_macro   0x00000000       0x1d ./src/main.o
  .debug_macro   0x00000000       0x76 ./src/main.o
  .debug_macro   0x00000000       0xf1 ./src/main.o
  .debug_macro   0x00000000       0x3a ./src/main.o
+ .debug_macro   0x00000000       0x57 ./src/main.o
+ .debug_macro   0x00000000       0x10 ./src/main.o
  .group         0x00000000        0x8 ./src/motor.o
  .group         0x00000000        0x8 ./src/motor.o
  .group         0x00000000        0x8 ./src/motor.o
@@ -6506,7 +6416,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./src/motor.o
  .debug_macro   0x00000000     0x2276 ./src/motor.o
  .debug_macro   0x00000000      0x32a ./src/motor.o
- .debug_macro   0x00000000     0x3112 ./src/motor.o
+ .debug_macro   0x00000000     0x3119 ./src/motor.o
  .debug_macro   0x00000000     0x1bbb ./src/motor.o
  .debug_macro   0x00000000     0x2675 ./src/motor.o
  .debug_macro   0x00000000     0x1b1a ./src/motor.o
@@ -6634,7 +6544,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xe1d ./src/timer.o
  .debug_macro   0x00000000     0x2276 ./src/timer.o
  .debug_macro   0x00000000      0x32a ./src/timer.o
- .debug_macro   0x00000000     0x3112 ./src/timer.o
+ .debug_macro   0x00000000     0x3119 ./src/timer.o
  .debug_macro   0x00000000     0x1bbb ./src/timer.o
  .debug_macro   0x00000000     0x2675 ./src/timer.o
  .debug_macro   0x00000000     0x1b1a ./src/timer.o
@@ -6821,7 +6731,7 @@ END GROUP
 LOAD c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtend.o
 LOAD c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtn.o
 
-.text           0x00000000     0x2808
+.text           0x00000000     0x2de8
  *(.vectors)
  .vectors       0x00000000      0x10c ./CMSIS/EFM32PG12B/startup_gcc_efm32pg12b.o
                 0x00000000                __Vectors
@@ -6849,7 +6759,6 @@ LOAD c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/
                 0x00000208                USART1_TX_IRQHandler
                 0x00000208                SMU_IRQHandler
                 0x00000208                MSC_IRQHandler
-                0x00000208                ADC0_IRQHandler
                 0x00000208                UsageFault_Handler
                 0x00000208                WDOG1_IRQHandler
                 0x00000208                LEUART0_IRQHandler
@@ -6910,180 +6819,213 @@ LOAD c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/
                 0x00000340       0x18 ./CMSIS/EFM32PG12B/system_efm32pg12b.o
                 0x00000340                SystemLFXOClockGet
  .text.BUS_RegBitWrite
-                0x00000358       0x2c ./emlib/em_cmu.o
- .text.BUS_RegBitRead
-                0x00000384       0x2c ./emlib/em_cmu.o
- .text.CMU_Log2ToDiv
-                0x000003b0       0x1c ./emlib/em_cmu.o
- .text.EMU_VScaleWait
-                0x000003cc       0x1c ./emlib/em_cmu.o
- .text.EMU_VScaleGet
-                0x000003e8       0x1c ./emlib/em_cmu.o
- .text.setHfLeConfig
-                0x00000404       0x64 ./emlib/em_cmu.o
- .text.auxClkGet
-                0x00000468       0x20 ./emlib/em_cmu.o
- .text.hfSrcClkGet
-                0x00000488       0x2c ./emlib/em_cmu.o
- .text.dbgClkGet
-                0x000004b4       0x40 ./emlib/em_cmu.o
- .text.adcAsyncClkGet
-                0x000004f4       0x80 ./emlib/em_cmu.o
- .text.flashWaitStateControl
-                0x00000574       0x88 ./emlib/em_cmu.o
- .text.flashWaitStateMax
-                0x000005fc       0x40 ./emlib/em_cmu.o
- .text.CMU_UpdateWaitStates
-                0x0000063c       0x40 ./emlib/em_cmu.o
-                0x0000063c                CMU_UpdateWaitStates
- .text.getRegIshUpperVal
-                0x0000067c       0x38 ./emlib/em_cmu.o
- .text.getHfxoTuningMode
-                0x000006b4       0x1c ./emlib/em_cmu.o
- .text.setHfxoTuningMode
-                0x000006d0       0x28 ./emlib/em_cmu.o
- .text.lfClkGet
-                0x000006f8       0xf4 ./emlib/em_cmu.o
- .text.syncReg  0x000007ec       0x38 ./emlib/em_cmu.o
- .text.hfperClkSafePrescaler
-                0x00000824        0xc ./emlib/em_cmu.o
- .text.hfperClkOptimizedPrescaler
-                0x00000830        0xc ./emlib/em_cmu.o
- .text.CMU_ClockEnable
-                0x0000083c       0xcc ./emlib/em_cmu.o
-                0x0000083c                CMU_ClockEnable
- .text.CMU_ClockFreqGet
-                0x00000908      0x210 ./emlib/em_cmu.o
-                0x00000908                CMU_ClockFreqGet
- .text.CMU_ClockSelectGet
-                0x00000b18      0x1c0 ./emlib/em_cmu.o
-                0x00000b18                CMU_ClockSelectGet
- .text.CMU_ClockSelectSet
-                0x00000cd8      0x2f0 ./emlib/em_cmu.o
-                0x00000cd8                CMU_ClockSelectSet
- .text.CMU_HFRCOBandGet
-                0x00000fc8       0x18 ./emlib/em_cmu.o
-                0x00000fc8                CMU_HFRCOBandGet
- .text.CMU_HFXOInit
-                0x00000fe0       0xe4 ./emlib/em_cmu.o
-                0x00000fe0                CMU_HFXOInit
- .text.CMU_OscillatorEnable
-                0x000010c4      0x1a0 ./emlib/em_cmu.o
-                0x000010c4                CMU_OscillatorEnable
- .text.CMU_OscillatorTuningGet
-                0x00001264       0x74 ./emlib/em_cmu.o
-                0x00001264                CMU_OscillatorTuningGet
- .text.CMU_OscillatorTuningSet
-                0x000012d8      0x100 ./emlib/em_cmu.o
-                0x000012d8                CMU_OscillatorTuningSet
- .text.CMU_OscillatorTuningWait
-                0x000013d8       0x94 ./emlib/em_cmu.o
-                0x000013d8                CMU_OscillatorTuningWait
- .text.CMU_OscillatorTuningOptimize
-                0x0000146c       0x58 ./emlib/em_cmu.o
-                0x0000146c                CMU_OscillatorTuningOptimize
- .text.BUS_RegBitWrite
-                0x000014c4       0x2c ./emlib/em_emu.o
- .text.BUS_RegBitRead
-                0x000014f0       0x2c ./emlib/em_emu.o
- .text.EMU_VScaleWait
-                0x0000151c       0x1c ./emlib/em_emu.o
- .text.EMU_VScaleGet
-                0x00001538       0x1c ./emlib/em_emu.o
- .text.EMU_IntClear
-                0x00001554       0x1c ./emlib/em_emu.o
- .text.EMU_IntGet
-                0x00001570       0x18 ./emlib/em_emu.o
- .text.vScaleEM01Cmd
-                0x00001588       0x24 ./emlib/em_emu.o
- .text.EMU_VScaleEM01ByClock
-                0x000015ac       0x70 ./emlib/em_emu.o
-                0x000015ac                EMU_VScaleEM01ByClock
- .text.EMU_VScaleEM01
-                0x0000161c       0x84 ./emlib/em_emu.o
-                0x0000161c                EMU_VScaleEM01
- .text.dcdcConstCalibrationLoad
-                0x000016a0       0x10 ./emlib/em_emu.o
- .text.dcdcValidatedConfigSet
-                0x000016b0       0x40 ./emlib/em_emu.o
- .text.currentLimitersUpdate
-                0x000016f0       0xe4 ./emlib/em_emu.o
- .text.userCurrentLimitsSet
-                0x000017d4       0x2c ./emlib/em_emu.o
- .text.compCtrlSet
-                0x00001800       0x3c ./emlib/em_emu.o
- .text.lpCmpHystCalibrationLoad
-                0x0000183c       0xd4 ./emlib/em_emu.o
- .text.lpGetDevinfoVrefLowHigh
-                0x00001910      0x164 ./emlib/em_emu.o
- .text.EMU_DCDCModeSet
-                0x00001a74       0xf0 ./emlib/em_emu.o
-                0x00001a74                EMU_DCDCModeSet
- .text.EMU_DCDCInit
-                0x00001b64      0x138 ./emlib/em_emu.o
-                0x00001b64                EMU_DCDCInit
- .text.EMU_DCDCOutputVoltageSet
-                0x00001c9c      0x2cc ./emlib/em_emu.o
-                0x00001c9c                EMU_DCDCOutputVoltageSet
- .text.EMU_DCDCOptimizeSlice
-                0x00001f68       0xd8 ./emlib/em_emu.o
-                0x00001f68                EMU_DCDCOptimizeSlice
- .text.EMU_DCDCLnRcoBandSet
-                0x00002040       0x54 ./emlib/em_emu.o
-                0x00002040                EMU_DCDCLnRcoBandSet
+                0x00000358       0x2c ./emlib/em_adc.o
  .text.BUS_RegMaskedSet
-                0x00002094       0x24 ./emlib/em_gpio.o
+                0x00000384       0x24 ./emlib/em_adc.o
  .text.BUS_RegMaskedClear
-                0x000020b8       0x24 ./emlib/em_gpio.o
+                0x000003a8       0x24 ./emlib/em_adc.o
  .text.BUS_RegMaskedWrite
-                0x000020dc       0x24 ./emlib/em_gpio.o
+                0x000003cc       0x24 ./emlib/em_adc.o
+ .text.ADC_LoadDevinfoCal
+                0x000003f0      0x1bc ./emlib/em_adc.o
+ .text.ADC_Init
+                0x000005ac       0xd4 ./emlib/em_adc.o
+                0x000005ac                ADC_Init
+ .text.ADC_InitSingle
+                0x00000680      0x12c ./emlib/em_adc.o
+                0x00000680                ADC_InitSingle
+ .text.ADC_PrescaleCalc
+                0x000007ac       0x70 ./emlib/em_adc.o
+                0x000007ac                ADC_PrescaleCalc
+ .text.BUS_RegBitWrite
+                0x0000081c       0x2c ./emlib/em_cmu.o
+ .text.BUS_RegBitRead
+                0x00000848       0x2c ./emlib/em_cmu.o
+ .text.CMU_Log2ToDiv
+                0x00000874       0x1c ./emlib/em_cmu.o
+ .text.EMU_VScaleWait
+                0x00000890       0x1c ./emlib/em_cmu.o
+ .text.EMU_VScaleGet
+                0x000008ac       0x1c ./emlib/em_cmu.o
+ .text.setHfLeConfig
+                0x000008c8       0x64 ./emlib/em_cmu.o
+ .text.auxClkGet
+                0x0000092c       0x20 ./emlib/em_cmu.o
+ .text.hfSrcClkGet
+                0x0000094c       0x2c ./emlib/em_cmu.o
+ .text.dbgClkGet
+                0x00000978       0x40 ./emlib/em_cmu.o
+ .text.adcAsyncClkGet
+                0x000009b8       0x80 ./emlib/em_cmu.o
+ .text.flashWaitStateControl
+                0x00000a38       0x88 ./emlib/em_cmu.o
+ .text.flashWaitStateMax
+                0x00000ac0       0x40 ./emlib/em_cmu.o
+ .text.CMU_UpdateWaitStates
+                0x00000b00       0x40 ./emlib/em_cmu.o
+                0x00000b00                CMU_UpdateWaitStates
+ .text.getRegIshUpperVal
+                0x00000b40       0x38 ./emlib/em_cmu.o
+ .text.getHfxoTuningMode
+                0x00000b78       0x1c ./emlib/em_cmu.o
+ .text.setHfxoTuningMode
+                0x00000b94       0x28 ./emlib/em_cmu.o
+ .text.lfClkGet
+                0x00000bbc       0xf4 ./emlib/em_cmu.o
+ .text.syncReg  0x00000cb0       0x38 ./emlib/em_cmu.o
+ .text.hfperClkSafePrescaler
+                0x00000ce8        0xc ./emlib/em_cmu.o
+ .text.hfperClkOptimizedPrescaler
+                0x00000cf4        0xc ./emlib/em_cmu.o
+ .text.CMU_ClockEnable
+                0x00000d00       0xcc ./emlib/em_cmu.o
+                0x00000d00                CMU_ClockEnable
+ .text.CMU_ClockFreqGet
+                0x00000dcc      0x210 ./emlib/em_cmu.o
+                0x00000dcc                CMU_ClockFreqGet
+ .text.CMU_ClockSelectGet
+                0x00000fdc      0x1c0 ./emlib/em_cmu.o
+                0x00000fdc                CMU_ClockSelectGet
+ .text.CMU_ClockSelectSet
+                0x0000119c      0x2f0 ./emlib/em_cmu.o
+                0x0000119c                CMU_ClockSelectSet
+ .text.CMU_HFRCOBandGet
+                0x0000148c       0x18 ./emlib/em_cmu.o
+                0x0000148c                CMU_HFRCOBandGet
+ .text.CMU_HFXOInit
+                0x000014a4       0xe4 ./emlib/em_cmu.o
+                0x000014a4                CMU_HFXOInit
+ .text.CMU_OscillatorEnable
+                0x00001588      0x1a0 ./emlib/em_cmu.o
+                0x00001588                CMU_OscillatorEnable
+ .text.CMU_OscillatorTuningGet
+                0x00001728       0x74 ./emlib/em_cmu.o
+                0x00001728                CMU_OscillatorTuningGet
+ .text.CMU_OscillatorTuningSet
+                0x0000179c      0x100 ./emlib/em_cmu.o
+                0x0000179c                CMU_OscillatorTuningSet
+ .text.CMU_OscillatorTuningWait
+                0x0000189c       0x94 ./emlib/em_cmu.o
+                0x0000189c                CMU_OscillatorTuningWait
+ .text.CMU_OscillatorTuningOptimize
+                0x00001930       0x58 ./emlib/em_cmu.o
+                0x00001930                CMU_OscillatorTuningOptimize
+ .text.CORE_AtomicEnableIrq
+                0x00001988       0x10 ./emlib/em_core.o
+                0x00001988                CORE_AtomicEnableIrq
+ .text.BUS_RegBitWrite
+                0x00001998       0x2c ./emlib/em_emu.o
+ .text.BUS_RegBitRead
+                0x000019c4       0x2c ./emlib/em_emu.o
+ .text.EMU_VScaleWait
+                0x000019f0       0x1c ./emlib/em_emu.o
+ .text.EMU_VScaleGet
+                0x00001a0c       0x1c ./emlib/em_emu.o
+ .text.EMU_IntClear
+                0x00001a28       0x1c ./emlib/em_emu.o
+ .text.EMU_IntGet
+                0x00001a44       0x18 ./emlib/em_emu.o
+ .text.vScaleEM01Cmd
+                0x00001a5c       0x24 ./emlib/em_emu.o
+ .text.EMU_VScaleEM01ByClock
+                0x00001a80       0x70 ./emlib/em_emu.o
+                0x00001a80                EMU_VScaleEM01ByClock
+ .text.EMU_VScaleEM01
+                0x00001af0       0x84 ./emlib/em_emu.o
+                0x00001af0                EMU_VScaleEM01
+ .text.dcdcConstCalibrationLoad
+                0x00001b74       0x10 ./emlib/em_emu.o
+ .text.dcdcValidatedConfigSet
+                0x00001b84       0x40 ./emlib/em_emu.o
+ .text.currentLimitersUpdate
+                0x00001bc4       0xe4 ./emlib/em_emu.o
+ .text.userCurrentLimitsSet
+                0x00001ca8       0x2c ./emlib/em_emu.o
+ .text.compCtrlSet
+                0x00001cd4       0x3c ./emlib/em_emu.o
+ .text.lpCmpHystCalibrationLoad
+                0x00001d10       0xd4 ./emlib/em_emu.o
+ .text.lpGetDevinfoVrefLowHigh
+                0x00001de4      0x164 ./emlib/em_emu.o
+ .text.EMU_DCDCModeSet
+                0x00001f48       0xf0 ./emlib/em_emu.o
+                0x00001f48                EMU_DCDCModeSet
+ .text.EMU_DCDCInit
+                0x00002038      0x138 ./emlib/em_emu.o
+                0x00002038                EMU_DCDCInit
+ .text.EMU_DCDCOutputVoltageSet
+                0x00002170      0x2cc ./emlib/em_emu.o
+                0x00002170                EMU_DCDCOutputVoltageSet
+ .text.EMU_DCDCOptimizeSlice
+                0x0000243c       0xd8 ./emlib/em_emu.o
+                0x0000243c                EMU_DCDCOptimizeSlice
+ .text.EMU_DCDCLnRcoBandSet
+                0x00002514       0x54 ./emlib/em_emu.o
+                0x00002514                EMU_DCDCLnRcoBandSet
+ .text.BUS_RegMaskedSet
+                0x00002568       0x24 ./emlib/em_gpio.o
+ .text.BUS_RegMaskedClear
+                0x0000258c       0x24 ./emlib/em_gpio.o
+ .text.BUS_RegMaskedWrite
+                0x000025b0       0x24 ./emlib/em_gpio.o
  .text.GPIO_PinOutClear
-                0x00002100       0x78 ./emlib/em_gpio.o
+                0x000025d4       0x78 ./emlib/em_gpio.o
  .text.GPIO_PinOutSet
-                0x00002178       0x78 ./emlib/em_gpio.o
+                0x0000264c       0x78 ./emlib/em_gpio.o
  .text.GPIO_DriveStrengthSet
-                0x000021f0       0x80 ./emlib/em_gpio.o
-                0x000021f0                GPIO_DriveStrengthSet
+                0x000026c4       0x80 ./emlib/em_gpio.o
+                0x000026c4                GPIO_DriveStrengthSet
  .text.GPIO_PinModeSet
-                0x00002270      0x12c ./emlib/em_gpio.o
-                0x00002270                GPIO_PinModeSet
+                0x00002744      0x12c ./emlib/em_gpio.o
+                0x00002744                GPIO_PinModeSet
  .text.TIMER_Valid
-                0x0000239c       0x50 ./emlib/em_timer.o
+                0x00002870       0x50 ./emlib/em_timer.o
  .text.TIMER_Init
-                0x000023ec       0xe8 ./emlib/em_timer.o
-                0x000023ec                TIMER_Init
+                0x000028c0       0xe8 ./emlib/em_timer.o
+                0x000028c0                TIMER_Init
+ .text.__NVIC_EnableIRQ
+                0x000029a8       0x38 ./src/adc.o
+ .text.adc_gpio_init
+                0x000029e0       0x14 ./src/adc.o
+                0x000029e0                adc_gpio_init
+ .text.adc_init
+                0x000029f4       0x88 ./src/adc.o
+                0x000029f4                adc_init
+ .text.ADC0_IRQHandler
+                0x00002a7c       0x1c ./src/adc.o
+                0x00002a7c                ADC0_IRQHandler
  .text.cmu_init
-                0x000024d4       0x90 ./src/cmu.o
-                0x000024d4                cmu_init
+                0x00002a98       0x90 ./src/cmu.o
+                0x00002a98                cmu_init
  .text.SYSTEM_GetProdRev
-                0x00002564       0x1c ./src/main.o
+                0x00002b28       0x1c ./src/main.o
  .text.CHIP_Init
-                0x00002580       0x70 ./src/main.o
- .text.main     0x000025f0       0x68 ./src/main.o
-                0x000025f0                main
+                0x00002b44       0x70 ./src/main.o
+ .text.main     0x00002bb4       0x84 ./src/main.o
+                0x00002bb4                main
  .text.motor_gpio_init
-                0x00002658       0x40 ./src/motor.o
-                0x00002658                motor_gpio_init
+                0x00002c38       0x40 ./src/motor.o
+                0x00002c38                motor_gpio_init
  .text.timer0_init
-                0x00002698       0x7c ./src/timer.o
-                0x00002698                timer0_init
- .text.exit     0x00002714       0x28 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-exit.o)
-                0x00002714                exit
+                0x00002c78       0x7c ./src/timer.o
+                0x00002c78                timer0_init
+ .text.exit     0x00002cf4       0x28 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-exit.o)
+                0x00002cf4                exit
  .text.__libc_init_array
-                0x0000273c       0x4c c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-init.o)
-                0x0000273c                __libc_init_array
- .text.memset   0x00002788       0x10 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-memset.o)
-                0x00002788                memset
- .text._exit    0x00002798        0x4 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libnosys.a(_exit.o)
-                0x00002798                _exit
+                0x00002d1c       0x4c c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-init.o)
+                0x00002d1c                __libc_init_array
+ .text.memset   0x00002d68       0x10 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-memset.o)
+                0x00002d68                memset
+ .text._exit    0x00002d78        0x4 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libnosys.a(_exit.o)
+                0x00002d78                _exit
  *(.init)
- .init          0x0000279c        0x4 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crti.o
-                0x0000279c                _init
- .init          0x000027a0        0x8 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtn.o
+ .init          0x00002d7c        0x4 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crti.o
+                0x00002d7c                _init
+ .init          0x00002d80        0x8 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtn.o
  *(.fini)
- .fini          0x000027a8        0x4 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crti.o
-                0x000027a8                _fini
- .fini          0x000027ac        0x8 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtn.o
+ .fini          0x00002d88        0x4 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crti.o
+                0x00002d88                _fini
+ .fini          0x00002d8c        0x8 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtn.o
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -7096,46 +7038,46 @@ LOAD c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/
  *(.dtors)
  *(.rodata*)
  .rodata.flashWsTable
-                0x000027b4       0x28 ./emlib/em_cmu.o
- .rodata        0x000027dc       0x22 ./src/main.o
+                0x00002d94       0x28 ./emlib/em_cmu.o
+ .rodata        0x00002dbc       0x22 ./src/main.o
  .rodata.str1.1
-                0x000027fe        0x2 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-impure.o)
+                0x00002dde        0x2 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-impure.o)
  .rodata._global_impure_ptr
-                0x00002800        0x4 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-impure.o)
-                0x00002800                _global_impure_ptr
+                0x00002de0        0x4 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-impure.o)
+                0x00002de0                _global_impure_ptr
  *(.eh_frame*)
- .eh_frame      0x00002804        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
- .eh_frame      0x00002804        0x4 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtend.o
+ .eh_frame      0x00002de4        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
+ .eh_frame      0x00002de4        0x4 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtend.o
 
-.glue_7         0x00002808        0x0
+.glue_7         0x00002de8        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x00002808        0x0
+.glue_7t        0x00002de8        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x00002808        0x0
+.vfp11_veneer   0x00002de8        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x00002808        0x0
+.v4_bx          0x00002de8        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x00002808        0x0
+.iplt           0x00002de8        0x0
  .iplt          0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00002808                __exidx_start = .
+                0x00002de8                __exidx_start = .
 
-.ARM.exidx      0x00002808        0x8
+.ARM.exidx      0x00002de8        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x00002808        0x8 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
-                0x00002810                __exidx_end = .
-                0x00002810                __etext = .
+ .ARM.exidx     0x00002de8        0x8 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+                0x00002df0                __exidx_end = .
+                0x00002df0                __etext = .
 
-.rel.dyn        0x00002810        0x0
+.rel.dyn        0x00002df0        0x0
  .rel.iplt      0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
 
-.data           0x20000000       0x80 load address 0x00002810
+.data           0x20000000       0x80 load address 0x00002df0
                 0x20000000                __data_start__ = .
  *(vtable)
  *(.data*)
@@ -7177,10 +7119,10 @@ LOAD c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/
                 0x20000080                . = ALIGN (0x4)
                 0x20000080                __data_end__ = .
 
-.igot.plt       0x20000080        0x0 load address 0x00002890
+.igot.plt       0x20000080        0x0 load address 0x00002e70
  .igot.plt      0x00000000        0x0 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
 
-.bss            0x20000080       0x28 load address 0x00002890
+.bss            0x20000080       0x2c load address 0x00002e70
                 0x20000080                . = ALIGN (0x4)
                 0x20000080                __bss_start__ = .
  *(.bss*)
@@ -7195,22 +7137,24 @@ LOAD c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/
  .bss.vScaleEM01Config
                 0x200000a4        0x1 ./emlib/em_emu.o
  *(COMMON)
-                0x200000a8                . = ALIGN (0x4)
  *fill*         0x200000a5        0x3 
-                0x200000a8                __bss_end__ = .
+ COMMON         0x200000a8        0x4 ./src/adc.o
+                0x200000a8                adcreaddata
+                0x200000ac                . = ALIGN (0x4)
+                0x200000ac                __bss_end__ = .
 
-.heap           0x200000a8      0xc00
-                0x200000a8                __HeapBase = .
-                0x200000a8                __end__ = .
-                0x200000a8                end = __end__
-                0x200000a8                _end = __end__
+.heap           0x200000b0      0xc00
+                0x200000b0                __HeapBase = .
+                0x200000b0                __end__ = .
+                0x200000b0                end = __end__
+                0x200000b0                _end = __end__
  *(.heap*)
- .heap          0x200000a8      0xc00 ./CMSIS/EFM32PG12B/startup_gcc_efm32pg12b.o
-                0x20000ca8                __HeapLimit = .
+ .heap          0x200000b0      0xc00 ./CMSIS/EFM32PG12B/startup_gcc_efm32pg12b.o
+                0x20000cb0                __HeapLimit = .
 
-.stack_dummy    0x200000a8      0x400
+.stack_dummy    0x200000b0      0x400
  *(.stack*)
- .stack         0x200000a8      0x400 ./CMSIS/EFM32PG12B/startup_gcc_efm32pg12b.o
+ .stack         0x200000b0      0x400 ./CMSIS/EFM32PG12B/startup_gcc_efm32pg12b.o
                 0x20040000                __StackTop = (ORIGIN (RAM) + 0x40000)
                 0x2003fc00                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
                 0x20040000                PROVIDE (__stack, __StackTop)
@@ -7231,178 +7175,228 @@ OUTPUT(motor test.axf elf32-littlearm)
  .ARM.attributes
                 0x00000093       0x37 ./CMSIS/EFM32PG12B/system_efm32pg12b.o
  .ARM.attributes
-                0x000000ca       0x37 ./emlib/em_cmu.o
+                0x000000ca       0x37 ./emlib/em_adc.o
  .ARM.attributes
-                0x00000101       0x37 ./emlib/em_emu.o
+                0x00000101       0x37 ./emlib/em_cmu.o
  .ARM.attributes
-                0x00000138       0x37 ./emlib/em_gpio.o
+                0x00000138       0x37 ./emlib/em_core.o
  .ARM.attributes
-                0x0000016f       0x37 ./emlib/em_timer.o
+                0x0000016f       0x37 ./emlib/em_emu.o
  .ARM.attributes
-                0x000001a6       0x37 ./src/cmu.o
+                0x000001a6       0x37 ./emlib/em_gpio.o
  .ARM.attributes
-                0x000001dd       0x37 ./src/main.o
+                0x000001dd       0x37 ./emlib/em_timer.o
  .ARM.attributes
-                0x00000214       0x37 ./src/motor.o
+                0x00000214       0x37 ./src/adc.o
  .ARM.attributes
-                0x0000024b       0x37 ./src/timer.o
+                0x0000024b       0x37 ./src/cmu.o
  .ARM.attributes
-                0x00000282       0x32 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-exit.o)
+                0x00000282       0x37 ./src/main.o
  .ARM.attributes
-                0x000002b4       0x32 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-impure.o)
+                0x000002b9       0x37 ./src/motor.o
  .ARM.attributes
-                0x000002e6       0x32 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-init.o)
+                0x000002f0       0x37 ./src/timer.o
  .ARM.attributes
-                0x00000318       0x32 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-memset.o)
+                0x00000327       0x32 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-exit.o)
  .ARM.attributes
-                0x0000034a       0x32 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libnosys.a(_exit.o)
+                0x00000359       0x32 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x0000037c       0x32 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtend.o
+                0x0000038b       0x32 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-init.o)
  .ARM.attributes
-                0x000003ae       0x22 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtn.o
+                0x000003bd       0x32 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000003ef       0x32 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000421       0x32 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtend.o
+ .ARM.attributes
+                0x00000453       0x22 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtn.o
 
 .comment        0x00000000       0x70
  .comment       0x00000000       0x70 ./CMSIS/EFM32PG12B/system_efm32pg12b.o
                                  0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./emlib/em_adc.o
  .comment       0x00000000       0x71 ./emlib/em_cmu.o
+ .comment       0x00000000       0x71 ./emlib/em_core.o
  .comment       0x00000000       0x71 ./emlib/em_emu.o
  .comment       0x00000000       0x71 ./emlib/em_gpio.o
  .comment       0x00000000       0x71 ./emlib/em_timer.o
+ .comment       0x00000000       0x71 ./src/adc.o
  .comment       0x00000000       0x71 ./src/cmu.o
  .comment       0x00000000       0x71 ./src/main.o
  .comment       0x00000000       0x71 ./src/motor.o
  .comment       0x00000000       0x71 ./src/timer.o
 
-.debug_line     0x00000000     0x6cda
+.debug_line     0x00000000     0x89c2
  .debug_line    0x00000000       0x78 ./CMSIS/EFM32PG12B/startup_gcc_efm32pg12b.o
  .debug_line    0x00000078      0x88a ./CMSIS/EFM32PG12B/system_efm32pg12b.o
- .debug_line    0x00000902     0x131c ./emlib/em_cmu.o
- .debug_line    0x00001c1e     0x137c ./emlib/em_emu.o
- .debug_line    0x00002f9a      0xaea ./emlib/em_gpio.o
- .debug_line    0x00003a84      0xb6c ./emlib/em_timer.o
- .debug_line    0x000045f0      0x8a8 ./src/cmu.o
- .debug_line    0x00004e98      0xb9d ./src/main.o
- .debug_line    0x00005a35      0x9ef ./src/motor.o
- .debug_line    0x00006424      0x8b6 ./src/timer.o
+ .debug_line    0x00000902      0xac1 ./emlib/em_adc.o
+ .debug_line    0x000013c3     0x1280 ./emlib/em_cmu.o
+ .debug_line    0x00002643      0xba5 ./emlib/em_core.o
+ .debug_line    0x000031e8     0x12e0 ./emlib/em_emu.o
+ .debug_line    0x000044c8      0xafa ./emlib/em_gpio.o
+ .debug_line    0x00004fc2      0xb13 ./emlib/em_timer.o
+ .debug_line    0x00005ad5      0x8f1 ./src/adc.o
+ .debug_line    0x000063c6      0x872 ./src/cmu.o
+ .debug_line    0x00006c38      0xaf9 ./src/main.o
+ .debug_line    0x00007731      0x9e5 ./src/motor.o
+ .debug_line    0x00008116      0x8ac ./src/timer.o
 
-.debug_info     0x00000000     0x846e
+.debug_info     0x00000000     0xc347
  .debug_info    0x00000000       0x9c ./CMSIS/EFM32PG12B/startup_gcc_efm32pg12b.o
  .debug_info    0x0000009c      0x8bc ./CMSIS/EFM32PG12B/system_efm32pg12b.o
- .debug_info    0x00000958     0x23a5 ./emlib/em_cmu.o
- .debug_info    0x00002cfd     0x2362 ./emlib/em_emu.o
- .debug_info    0x0000505f      0xa5a ./emlib/em_gpio.o
- .debug_info    0x00005ab9      0x96b ./emlib/em_timer.o
- .debug_info    0x00006424      0x2d3 ./src/cmu.o
- .debug_info    0x000066f7     0x118e ./src/main.o
- .debug_info    0x00007885      0x755 ./src/motor.o
- .debug_info    0x00007fda      0x494 ./src/timer.o
+ .debug_info    0x00000958     0x1cb8 ./emlib/em_adc.o
+ .debug_info    0x00002610     0x23a5 ./emlib/em_cmu.o
+ .debug_info    0x000049b5      0xd36 ./emlib/em_core.o
+ .debug_info    0x000056eb     0x2362 ./emlib/em_emu.o
+ .debug_info    0x00007a4d      0xa5a ./emlib/em_gpio.o
+ .debug_info    0x000084a7      0x96b ./emlib/em_timer.o
+ .debug_info    0x00008e12     0x1304 ./src/adc.o
+ .debug_info    0x0000a116      0x2d3 ./src/cmu.o
+ .debug_info    0x0000a3e9     0x1375 ./src/main.o
+ .debug_info    0x0000b75e      0x755 ./src/motor.o
+ .debug_info    0x0000beb3      0x494 ./src/timer.o
 
-.debug_abbrev   0x00000000     0x1002
+.debug_abbrev   0x00000000     0x1632
  .debug_abbrev  0x00000000       0x14 ./CMSIS/EFM32PG12B/startup_gcc_efm32pg12b.o
  .debug_abbrev  0x00000014      0x1bd ./CMSIS/EFM32PG12B/system_efm32pg12b.o
- .debug_abbrev  0x000001d1      0x313 ./emlib/em_cmu.o
- .debug_abbrev  0x000004e4      0x314 ./emlib/em_emu.o
- .debug_abbrev  0x000007f8      0x1ec ./emlib/em_gpio.o
- .debug_abbrev  0x000009e4      0x1bc ./emlib/em_timer.o
- .debug_abbrev  0x00000ba0       0x82 ./src/cmu.o
- .debug_abbrev  0x00000c22      0x13f ./src/main.o
- .debug_abbrev  0x00000d61      0x192 ./src/motor.o
- .debug_abbrev  0x00000ef3      0x10f ./src/timer.o
+ .debug_abbrev  0x000001d1      0x22f ./emlib/em_adc.o
+ .debug_abbrev  0x00000400      0x313 ./emlib/em_cmu.o
+ .debug_abbrev  0x00000713      0x24b ./emlib/em_core.o
+ .debug_abbrev  0x0000095e      0x314 ./emlib/em_emu.o
+ .debug_abbrev  0x00000c72      0x1ec ./emlib/em_gpio.o
+ .debug_abbrev  0x00000e5e      0x1bc ./emlib/em_timer.o
+ .debug_abbrev  0x0000101a      0x1a9 ./src/adc.o
+ .debug_abbrev  0x000011c3       0x82 ./src/cmu.o
+ .debug_abbrev  0x00001245      0x14c ./src/main.o
+ .debug_abbrev  0x00001391      0x192 ./src/motor.o
+ .debug_abbrev  0x00001523      0x10f ./src/timer.o
 
-.debug_aranges  0x00000000      0x5a0
+.debug_aranges  0x00000000      0x750
  .debug_aranges
                 0x00000000       0x20 ./CMSIS/EFM32PG12B/startup_gcc_efm32pg12b.o
  .debug_aranges
                 0x00000020       0x68 ./CMSIS/EFM32PG12B/system_efm32pg12b.o
  .debug_aranges
-                0x00000088      0x1b8 ./emlib/em_cmu.o
+                0x00000088       0x90 ./emlib/em_adc.o
  .debug_aranges
-                0x00000240      0x1a8 ./emlib/em_emu.o
+                0x00000118      0x1b8 ./emlib/em_cmu.o
  .debug_aranges
-                0x000003e8       0x88 ./emlib/em_gpio.o
+                0x000002d0       0xe8 ./emlib/em_core.o
  .debug_aranges
-                0x00000470       0x58 ./emlib/em_timer.o
+                0x000003b8      0x1a8 ./emlib/em_emu.o
  .debug_aranges
-                0x000004c8       0x20 ./src/cmu.o
+                0x00000560       0x88 ./emlib/em_gpio.o
  .debug_aranges
-                0x000004e8       0x30 ./src/main.o
+                0x000005e8       0x58 ./emlib/em_timer.o
  .debug_aranges
-                0x00000518       0x68 ./src/motor.o
+                0x00000640       0x38 ./src/adc.o
  .debug_aranges
-                0x00000580       0x20 ./src/timer.o
+                0x00000678       0x20 ./src/cmu.o
+ .debug_aranges
+                0x00000698       0x30 ./src/main.o
+ .debug_aranges
+                0x000006c8       0x68 ./src/motor.o
+ .debug_aranges
+                0x00000730       0x20 ./src/timer.o
 
-.debug_loc      0x00000000     0x2d42
+.debug_loc      0x00000000     0x3bee
  .debug_loc     0x00000000      0x2e4 ./CMSIS/EFM32PG12B/system_efm32pg12b.o
- .debug_loc     0x000002e4     0x104c ./emlib/em_cmu.o
- .debug_loc     0x00001330      0xf06 ./emlib/em_emu.o
- .debug_loc     0x00002236      0x4b4 ./emlib/em_gpio.o
- .debug_loc     0x000026ea      0x2b0 ./emlib/em_timer.o
- .debug_loc     0x0000299a       0x2c ./src/cmu.o
- .debug_loc     0x000029c6       0xcc ./src/main.o
- .debug_loc     0x00002a92      0x260 ./src/motor.o
- .debug_loc     0x00002cf2       0x50 ./src/timer.o
+ .debug_loc     0x000002e4      0x504 ./emlib/em_adc.o
+ .debug_loc     0x000007e8     0x104c ./emlib/em_cmu.o
+ .debug_loc     0x00001834      0x88c ./emlib/em_core.o
+ .debug_loc     0x000020c0      0xf06 ./emlib/em_emu.o
+ .debug_loc     0x00002fc6      0x4b4 ./emlib/em_gpio.o
+ .debug_loc     0x0000347a      0x2b0 ./emlib/em_timer.o
+ .debug_loc     0x0000372a      0x11c ./src/adc.o
+ .debug_loc     0x00003846       0x2c ./src/cmu.o
+ .debug_loc     0x00003872       0xcc ./src/main.o
+ .debug_loc     0x0000393e      0x260 ./src/motor.o
+ .debug_loc     0x00003b9e       0x50 ./src/timer.o
 
-.debug_ranges   0x00000000      0x4f0
+.debug_ranges   0x00000000      0x670
  .debug_ranges  0x00000000       0x58 ./CMSIS/EFM32PG12B/system_efm32pg12b.o
- .debug_ranges  0x00000058      0x1a8 ./emlib/em_cmu.o
- .debug_ranges  0x00000200      0x198 ./emlib/em_emu.o
- .debug_ranges  0x00000398       0x78 ./emlib/em_gpio.o
- .debug_ranges  0x00000410       0x48 ./emlib/em_timer.o
- .debug_ranges  0x00000458       0x10 ./src/cmu.o
- .debug_ranges  0x00000468       0x20 ./src/main.o
- .debug_ranges  0x00000488       0x58 ./src/motor.o
- .debug_ranges  0x000004e0       0x10 ./src/timer.o
+ .debug_ranges  0x00000058       0x80 ./emlib/em_adc.o
+ .debug_ranges  0x000000d8      0x1a8 ./emlib/em_cmu.o
+ .debug_ranges  0x00000280       0xd8 ./emlib/em_core.o
+ .debug_ranges  0x00000358      0x198 ./emlib/em_emu.o
+ .debug_ranges  0x000004f0       0x78 ./emlib/em_gpio.o
+ .debug_ranges  0x00000568       0x48 ./emlib/em_timer.o
+ .debug_ranges  0x000005b0       0x28 ./src/adc.o
+ .debug_ranges  0x000005d8       0x10 ./src/cmu.o
+ .debug_ranges  0x000005e8       0x20 ./src/main.o
+ .debug_ranges  0x00000608       0x58 ./src/motor.o
+ .debug_ranges  0x00000660       0x10 ./src/timer.o
 
-.debug_macro    0x00000000     0x1d7e
+.debug_macro    0x00000000     0x2e28
  .debug_macro   0x00000000      0x273 ./CMSIS/EFM32PG12B/system_efm32pg12b.o
- .debug_macro   0x00000273      0x38e ./emlib/em_cmu.o
- .debug_macro   0x00000601       0x58 ./emlib/em_cmu.o
- .debug_macro   0x00000659       0x25 ./emlib/em_cmu.o
- .debug_macro   0x0000067e       0xee ./emlib/em_cmu.o
- .debug_macro   0x0000076c       0x7a ./emlib/em_cmu.o
- .debug_macro   0x000007e6      0x377 ./emlib/em_emu.o
- .debug_macro   0x00000b5d      0x286 ./emlib/em_gpio.o
- .debug_macro   0x00000de3      0x274 ./emlib/em_timer.o
- .debug_macro   0x00001057       0x79 ./emlib/em_timer.o
- .debug_macro   0x000010d0      0x298 ./src/cmu.o
- .debug_macro   0x00001368      0x347 ./src/main.o
- .debug_macro   0x000016af       0x80 ./src/main.o
- .debug_macro   0x0000172f       0x7f ./src/main.o
- .debug_macro   0x000017ae       0x3a ./src/main.o
- .debug_macro   0x000017e8      0x2c6 ./src/motor.o
- .debug_macro   0x00001aae      0x2d0 ./src/timer.o
+ .debug_macro   0x00000273      0x327 ./emlib/em_adc.o
+ .debug_macro   0x0000059a       0x51 ./emlib/em_adc.o
+ .debug_macro   0x000005eb      0x166 ./emlib/em_adc.o
+ .debug_macro   0x00000751      0x383 ./emlib/em_cmu.o
+ .debug_macro   0x00000ad4       0x58 ./emlib/em_cmu.o
+ .debug_macro   0x00000b2c       0x25 ./emlib/em_cmu.o
+ .debug_macro   0x00000b51       0xee ./emlib/em_cmu.o
+ .debug_macro   0x00000c3f       0x80 ./emlib/em_cmu.o
+ .debug_macro   0x00000cbf      0x29b ./emlib/em_core.o
+ .debug_macro   0x00000f5a       0x63 ./emlib/em_core.o
+ .debug_macro   0x00000fbd       0xba ./emlib/em_core.o
+ .debug_macro   0x00001077      0x36a ./emlib/em_emu.o
+ .debug_macro   0x000013e1       0x7a ./emlib/em_emu.o
+ .debug_macro   0x0000145b      0x286 ./emlib/em_gpio.o
+ .debug_macro   0x000016e1      0x274 ./emlib/em_timer.o
+ .debug_macro   0x00001955       0x79 ./emlib/em_timer.o
+ .debug_macro   0x000019ce      0x2cb ./src/adc.o
+ .debug_macro   0x00001c99      0x344 ./src/adc.o
+ .debug_macro   0x00001fdd       0x57 ./src/adc.o
+ .debug_macro   0x00002034       0x10 ./src/adc.o
+ .debug_macro   0x00002044      0x28b ./src/cmu.o
+ .debug_macro   0x000022cf      0x358 ./src/main.o
+ .debug_macro   0x00002627      0x1ba ./src/main.o
+ .debug_macro   0x000027e1       0x7f ./src/main.o
+ .debug_macro   0x00002860       0x3a ./src/main.o
+ .debug_macro   0x0000289a      0x2c2 ./src/motor.o
+ .debug_macro   0x00002b5c      0x2cc ./src/timer.o
 
-.debug_str      0x00000000   0x154c82
- .debug_str     0x00000000   0x14da25 ./CMSIS/EFM32PG12B/system_efm32pg12b.o
-                             0x14e8f7 (size before relaxing)
- .debug_str     0x0014da25     0x39e0 ./emlib/em_cmu.o
-                             0x152234 (size before relaxing)
- .debug_str     0x00151405     0x1140 ./emlib/em_emu.o
-                             0x152159 (size before relaxing)
- .debug_str     0x00152545      0x49a ./emlib/em_gpio.o
-                             0x14f312 (size before relaxing)
- .debug_str     0x001529df      0xa95 ./emlib/em_timer.o
-                             0x14ef47 (size before relaxing)
- .debug_str     0x00153474       0x16 ./src/cmu.o
-                             0x14fd05 (size before relaxing)
- .debug_str     0x0015348a     0x1770 ./src/main.o
-                             0x1527fc (size before relaxing)
- .debug_str     0x00154bfa       0x5e ./src/motor.o
-                             0x14fcec (size before relaxing)
- .debug_str     0x00154c58       0x2a ./src/timer.o
-                             0x14fb92 (size before relaxing)
+.debug_str      0x00000000   0x157f6d
+ .debug_str     0x00000000   0x14da48 ./CMSIS/EFM32PG12B/system_efm32pg12b.o
+                             0x14e91a (size before relaxing)
+ .debug_str     0x0014da48     0x4997 ./emlib/em_adc.o
+                             0x152f6e (size before relaxing)
+ .debug_str     0x001523df     0x1cbd ./emlib/em_cmu.o
+                             0x152241 (size before relaxing)
+ .debug_str     0x0015409c      0xc23 ./emlib/em_core.o
+                             0x14f3c0 (size before relaxing)
+ .debug_str     0x00154cbf     0x1139 ./emlib/em_emu.o
+                             0x152166 (size before relaxing)
+ .debug_str     0x00155df8      0x459 ./emlib/em_gpio.o
+                             0x14f335 (size before relaxing)
+ .debug_str     0x00156251      0xa85 ./emlib/em_timer.o
+                             0x14ef6a (size before relaxing)
+ .debug_str     0x00156cd6       0xa4 ./src/adc.o
+                             0x152bb5 (size before relaxing)
+ .debug_str     0x00156d7a       0x16 ./src/cmu.o
+                             0x14fd12 (size before relaxing)
+ .debug_str     0x00156d90     0x1155 ./src/main.o
+                             0x152d21 (size before relaxing)
+ .debug_str     0x00157ee5       0x5e ./src/motor.o
+                             0x14fd0f (size before relaxing)
+ .debug_str     0x00157f43       0x2a ./src/timer.o
+                             0x14fbb5 (size before relaxing)
 
-.debug_frame    0x00000000     0x161c
+.debug_frame    0x00000000     0x1cd8
  .debug_frame   0x00000000      0x164 ./CMSIS/EFM32PG12B/system_efm32pg12b.o
- .debug_frame   0x00000164      0x780 ./emlib/em_cmu.o
- .debug_frame   0x000008e4      0x714 ./emlib/em_emu.o
- .debug_frame   0x00000ff8      0x228 ./emlib/em_gpio.o
- .debug_frame   0x00001220      0x140 ./emlib/em_timer.o
- .debug_frame   0x00001360       0x2c ./src/cmu.o
- .debug_frame   0x0000138c       0x78 ./src/main.o
- .debug_frame   0x00001404      0x150 ./src/motor.o
- .debug_frame   0x00001554       0x34 ./src/timer.o
- .debug_frame   0x00001588       0x28 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-exit.o)
- .debug_frame   0x000015b0       0x2c c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-init.o)
- .debug_frame   0x000015dc       0x20 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-memset.o)
- .debug_frame   0x000015fc       0x20 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libnosys.a(_exit.o)
+ .debug_frame   0x00000164      0x248 ./emlib/em_adc.o
+ .debug_frame   0x000003ac      0x780 ./emlib/em_cmu.o
+ .debug_frame   0x00000b2c      0x3dc ./emlib/em_core.o
+ .debug_frame   0x00000f08      0x714 ./emlib/em_emu.o
+ .debug_frame   0x0000161c      0x228 ./emlib/em_gpio.o
+ .debug_frame   0x00001844      0x140 ./emlib/em_timer.o
+ .debug_frame   0x00001984       0x98 ./src/adc.o
+ .debug_frame   0x00001a1c       0x2c ./src/cmu.o
+ .debug_frame   0x00001a48       0x78 ./src/main.o
+ .debug_frame   0x00001ac0      0x150 ./src/motor.o
+ .debug_frame   0x00001c10       0x34 ./src/timer.o
+ .debug_frame   0x00001c44       0x28 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x00001c6c       0x2c c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00001c98       0x20 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x00001cb8       0x20 c:/siliconlabs/simplicitystudio/v4/developer/toolchains/gnu_arm/4.9_2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libnosys.a(_exit.o)

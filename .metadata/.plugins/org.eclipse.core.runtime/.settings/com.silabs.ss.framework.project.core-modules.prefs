@@ -1,5 +1,5 @@
 eclipse.preferences.version=1
-knownParentDescs_com.silabs.ss.platform.sdk.core-protocolRegistry=com.silabs.sdk.stack.super\:2.5.0._310455071.com.silabs.sdk.exx32\:5.7.0.0_-122903795\u0000com.silabs.sdk.stack.super\:2.5.0._310455071.com.silabs.sdk.micrium\:5.6.0._-730119116\u0000com.silabs.sdk.stack.super\:2.5.0._310455071.com.silabs.sdk.stack.bootloader\:1.8.0._2142304532
-knownParentDescs_com.silabs.ss.platform.sdk.core-sdkManager=com.silabs.sdk.none\:0.0.0\u0000com.silabs.sdk.stack.super\:2.5.0._310455071\u0000com.silabs.stack.external.stackless\:1.0.0._1234321
+knownParentDescs_com.silabs.ss.platform.sdk.core-protocolRegistry=com.silabs.sdk.stack.super\:2.4.1._310455068.com.silabs.sdk.exx32\:5.6.1.0_-151521556\u0000com.silabs.sdk.stack.super\:2.4.1._310455068.com.silabs.sdk.stack.bootloader\:1.7.0._191898039\u0000com.silabs.sdk.stack.super\:2.5.4._310455071.com.silabs.sdk.exx32\:5.7.3.0_-122903795\u0000com.silabs.sdk.stack.super\:2.5.4._310455071.com.silabs.sdk.micrium\:5.6.0._-730119116\u0000com.silabs.sdk.stack.super\:2.5.4._310455071.com.silabs.sdk.stack.bootloader\:1.8.4._2142304532
+knownParentDescs_com.silabs.ss.platform.sdk.core-sdkManager=com.silabs.sdk.none\:0.0.0\u0000com.silabs.sdk.stack.super\:2.4.1._310455068\u0000com.silabs.sdk.stack.super\:2.5.4._310455071
 lastRefreshDate=1556054616360
 manualDescriptors=<?xml version\="1.0" encoding\="ASCII"?>\r\n<model\:MDescriptors xmlns\:model\="http\://www.silabs.com/ss/Studio.ecore"/>\r\n

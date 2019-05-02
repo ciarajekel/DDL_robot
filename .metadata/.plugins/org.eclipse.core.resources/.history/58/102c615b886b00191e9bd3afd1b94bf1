@@ -1,0 +1,26 @@
+													/*
+ * adc.c
+ *
+ *  Created on: Apr 23, 2019
+ *      Author: Ciara
+ */
+
+#include "adc.h"
+
+void adc_init(void){
+	ADC0->CTRL = ADC_CTRL_TIMEBASE_DEFAULT | ADC_CTRL_ADCCLKMODE_SYNC;
+
+	ADC0->SINGLECTRL = ADC_CTRL_TIMEBASE_DEFAULT | ADC_CTRL_ADCCLKMODE_ASYNC |
+						ADC_SINGLECTRL_REF_5V | ADC_SINGLECTRL_POSSEL_APORT3YCH11;//[#][X/Y]CH[#];
+
+
+	ADC0->IEN |= ADC_IEN_SINGLE;
+	//ADC_SINGLECTRL_POSSEL_APORT[#][X/Y]CH[#]
+
+	//read = ADC0->SINGLEDATA
+}
+
+void ADC0_IRQHandler (void){
+	ADC0->IEN &= ~ADC_IEN_SINGLE;
+
+}

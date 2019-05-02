@@ -1,0 +1,40 @@
+													/*
+ * adc.c
+ *
+ *  Created on: Apr 23, 2019
+ *      Author: Ciara
+ */
+
+#include "adc.h"
+void adc_gpio_init(void){
+	GPIO_PinModeSet(SENSOR_PORT, SENSOR_PIN, gpioModeDisabled,0);
+}
+
+void adc_init(void){
+//	ADC0->CTRL = ADC_CTRL_TIMEBASE_DEFAULT | ADC_CTRL_ADCCLKMODE_SYNC;
+//	ADC0->SINGLECTRL = ADC_SINGLECTRL_REF_VDD | ADC_SINGLECTRL_POSSEL_APORT3YCH11; //[#][X/Y]CH[#];
+//	ADC0->IEN |= ADC_IEN_SINGLE;
+
+	ADC_Init_TypeDef adc_ctrl_settings;
+	ADC_InitSingle_TypeDef adc_singlectrl_settings;
+
+	adc_ctrl_settings.ovsRateSel = adcOvsRateSel2;
+	adc_ctrl_settings.warmUpMode = adcWarmupNormal;
+	adc_ctrl_settings.timebase = _ADC_CTRL_TIMEBASE_DEFAULT;
+	adc_ctrl_settings.prescale = _ADC_CTRL_PRESC_DEFAULT;
+	adc_ctrl_settings.tailgate = false;
+	adc_ctrl_settings.em2ClockConfig =   adcEm2ClockOnDemand;//     = ADC_CTRL_ADCCLKMODE_ASYNC | ADC_CTRL_ASYNCCLKEN_ASNEEDED,
+			 	 	 	 	 	 	  // adcEm2ClockAlwaysOn      = ADC_CTRL_ADCCLKMODE_ASYNC | ADC_CTRL_ASYNCCLKEN_ALWAYSON,
+
+
+
+	ADC_InitSingle(ADC0,&adc_singlectrl_settings)
+	ADC_Init(ADC0,&adc_ctrl_settings);
+
+
+}
+uint32_t adcreaddata;
+void ADC0_IRQHandler (void){
+//	ADC0->IEN &= ~ADC_IEN_SINGLE;
+	adcreaddata=ADC0->SINGLEDATA;
+}

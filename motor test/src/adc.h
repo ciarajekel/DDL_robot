@@ -16,6 +16,9 @@
 #include "adc.h"
 
 void adc_init(void);
+void adc_gpio_init(void);
 
+#define SENSOR_PORT		gpioPortA
+#define SENSOR_PIN		3
 
 #endif /* SRC_ADC_H_ */

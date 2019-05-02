@@ -49,9 +49,18 @@ int main(void)
   cmu_init();
   timer0_init();
   motor_gpio_init();
+  adc_gpio_init();
+  adc_init();
+
+  CORE_ATOMIC_IRQ_ENABLE();
+
+  ADC0->CMD = ADC_CMD_SINGLESTART;
 
   /* Infinite dance loop */
   while (1) {
+//	  adc_init();
+	  ADC0->CMD = ADC_CMD_SINGLESTART;
+
 //	  robot_forward();
 //	  for(int i=0;i<2500000;i++);
 //	  robot_backward();
